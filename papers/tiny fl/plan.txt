@@ -1,0 +1,160 @@
+https://ieeexplore.ieee.org/document/10844426
+🟢 PART 1 — Federated Learning (2.5–3 hours total)
+
+You already did a course, so this is sharpening — not learning from zero.
+
+🔹 1️⃣ FedAvg (45 minutes)
+
+McMahan et al., 2017
+Communication-Efficient Learning of Deep Networks from Decentralized Data
+
+Read ONLY:
+
+Algorithm 1
+
+System model
+
+Communication discussion
+
+Experimental summary
+
+Understand deeply:
+
+What exactly is sent?
+
+When aggregation happens?
+
+Why communication dominates?
+
+What breaks under non-IID?
+
+After this, you must be able to explain FL on a whiteboard.
+
+🔹 2️⃣ FedProx (1–1.5 hours)
+
+Li et al., 2020 — Federated Optimization in Heterogeneous Networks
+
+Why?
+Tiny devices → heterogeneous data → FedAvg instability.
+
+Extract:
+
+What is client drift?
+
+What is the proximal term?
+
+Why does this help stability?
+
+Extra computation cost?
+
+Now your FL understanding is modern.
+
+🟡 PART 2 — TinyML (2 hours)
+
+Before TinyFL, you must understand what “tiny” means physically.
+
+🔹 3️⃣ TinyML (Warden & Situnayake)
+
+Read:
+
+Memory limits (RAM vs Flash)
+
+Quantization (int8 vs float32)
+
+Why backprop is hard on MCUs
+
+Key numbers to remember:
+
+Typical MCU RAM: 256KB – 1MB
+
+Models often <100KB
+
+No GPU
+
+Very limited stack memory
+
+Ask yourself:
+If FedAvg needs full gradients, can MCU handle that?
+
+This mental friction is important.
+
+🔴 PART 3 — Tiny Federated Learning (3–3.5 hours)
+
+Now we combine both worlds.
+
+🔹 4️⃣ IEEE 2025 Systematic Review
+
+Tiny Federated Learning for Constrained Sensors
+
+Read:
+
+Fundamentals section
+
+Tables
+
+Challenges & future directions
+
+Extract:
+
+Most common model sizes
+
+Most common compression methods
+
+Open research gaps
+
+This gives you overview power.
+
+🔹 5️⃣ TinyFed (2025) — 2 hours
+
+This is your deep technical TinyFL paper.
+
+Extract ONLY:
+
+Device specs
+
+Model size
+
+Communication per round
+
+Local training steps
+
+Energy (if measured)
+
+Critically evaluate:
+Is it truly MCU-level?
+Or Raspberry Pi level?
+
+That critical thinking = thesis maturity.
+
+🧠 Final Hour (Synthesis)
+
+Write answers to:
+
+What changes when FL becomes TinyFL?
+
+What are the 3 main bottlenecks?
+
+Memory?
+
+Communication?
+
+Energy?
+
+What is still unsolved?
+
+If you can answer these clearly → you understand the field.
+
+⏱ Time Summary
+
+FL → 2.5–3h
+TinyML → 2h
+TinyFL → 3–3.5h
+
+Total ≈ 8 hours.
+
+🔥 After This Order You Will:
+
+✔ Understand theory (FL)
+✔ Understand hardware constraints (TinyML)
+✔ Understand system design (TinyFL)
+✔ Be ready for thesis discussion

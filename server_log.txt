@@ -1,0 +1,2228 @@
+[2026-05-21 15:48:53] [BLE] Scanning for TinyFL-Node...
+[2026-05-21 15:48:53] [BLE] Connecting to TinyFL-Node [F0:24:F9:B0:0F:52]
+[2026-05-21 15:48:57] [BLE] Connected
+[2026-05-21 15:48:57] [BLE] Listening for FL updates...
+
+[2026-05-21 15:49:01] 
+[CLIENT] Received | samples=10 | node accuracy=30.0%
+[2026-05-21 15:49:01] [CLIENT] Received weights: min=-2.0472, max=1.6535, mean=-0.0849
+[2026-05-21 15:49:01] [SIM] Created 3 heterogeneous clients
+[2026-05-21 15:49:01] 
+[FL] Round 1: Federated Averaging...
+[2026-05-21 15:49:01] [FL] Aggregated 30 samples from 3 clients
+[2026-05-21 15:49:01] [ACCURACY] Global accuracy: 20.0%
+[2026-05-21 15:49:01] [ACCURACY] Baseline: 20.0%
+[2026-05-21 15:49:01] [FL] Global weights to send: min=-2.0496, max=1.6548, mean=-0.0849
+[2026-05-21 15:49:01] [FL] Sending global model...
+[2026-05-21 15:49:01] [FL] Global model sent successfully
+
+[2026-05-21 15:49:22] 
+[CLIENT] Received | samples=20 | node accuracy=30.0%
+[2026-05-21 15:49:22] [CLIENT] Received weights: min=-3.1496, max=4.0157, mean=-0.1009
+[2026-05-21 15:49:22] [SIM] Created 3 heterogeneous clients
+[2026-05-21 15:49:22] 
+[FL] Round 2: Federated Averaging...
+[2026-05-21 15:49:22] [FL] Aggregated 60 samples from 3 clients
+[2026-05-21 15:49:22] [ACCURACY] Global accuracy: 20.0%
+[2026-05-21 15:49:22] [ACCURACY] Change: +0.0%
+[2026-05-21 15:49:22] [FL] Global weights to send: min=-2.6001, max=2.7964, mean=-0.0928
+[2026-05-21 15:49:22] [FL] Sending global model...
+[2026-05-21 15:49:22] [FL] Global model sent successfully
+
+[2026-05-21 15:49:43] 
+[CLIENT] Received | samples=30 | node accuracy=80.0%
+[2026-05-21 15:49:43] [CLIENT] Received weights: min=-4.7244, max=6.4567, mean=-0.1144
+[2026-05-21 15:49:43] [SIM] Created 3 heterogeneous clients
+[2026-05-21 15:49:43] 
+[FL] Round 3: Federated Averaging...
+[2026-05-21 15:49:43] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 15:49:43] [ACCURACY] Global accuracy: 30.0%
+[2026-05-21 15:49:43] [ACCURACY] Change: +10.0%
+[2026-05-21 15:49:43] [FL] Global weights to send: min=-3.3474, max=4.6252, mean=-0.1035
+[2026-05-21 15:49:43] [FL] Sending global model...
+[2026-05-21 15:49:43] [FL] Global model sent successfully
+
+[2026-05-21 15:50:03] 
+[CLIENT] Received | samples=30 | node accuracy=70.0%
+[2026-05-21 15:50:03] [CLIENT] Received weights: min=-5.4331, max=6.6929, mean=-0.0812
+[2026-05-21 15:50:03] [SIM] Created 3 heterogeneous clients
+[2026-05-21 15:50:03] 
+[FL] Round 4: Federated Averaging...
+[2026-05-21 15:50:03] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 15:50:03] [ACCURACY] Global accuracy: 42.0%
+[2026-05-21 15:50:03] [ACCURACY] Change: +12.0%
+[2026-05-21 15:50:03] [FL] Global weights to send: min=-4.3911, max=5.6599, mean=-0.0923
+[2026-05-21 15:50:03] [FL] Sending global model...
+[2026-05-21 15:50:03] [FL] Global model sent successfully
+
+[2026-05-21 15:50:23] 
+[CLIENT] Received | samples=30 | node accuracy=60.0%
+[2026-05-21 15:50:23] [CLIENT] Received weights: min=-6.6142, max=7.9528, mean=-0.0541
+[2026-05-21 15:50:23] [SIM] Created 3 heterogeneous clients
+[2026-05-21 15:50:23] 
+[FL] Round 5: Federated Averaging...
+[2026-05-21 15:50:23] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 15:50:23] [ACCURACY] Global accuracy: 46.0%
+[2026-05-21 15:50:23] [ACCURACY] Change: +4.0%
+[2026-05-21 15:50:23] [FL] Global weights to send: min=-5.3679, max=6.8062, mean=-0.0733
+[2026-05-21 15:50:23] [FL] Sending global model...
+[2026-05-21 15:50:23] [FL] Global model sent successfully
+
+[2026-05-21 15:50:43] 
+[CLIENT] Received | samples=30 | node accuracy=40.0%
+[2026-05-21 15:50:43] [CLIENT] Received weights: min=-6.9291, max=6.2992, mean=-0.0554
+[2026-05-21 15:50:43] [SIM] Created 3 heterogeneous clients
+[2026-05-21 15:50:43] 
+[FL] Round 6: Federated Averaging...
+[2026-05-21 15:50:43] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 15:50:43] [ACCURACY] Global accuracy: 44.0%
+[2026-05-21 15:50:43] [ACCURACY] Change: -2.0%
+[2026-05-21 15:50:43] [FL] Global weights to send: min=-6.1486, max=6.5529, mean=-0.0644
+[2026-05-21 15:50:43] [FL] Sending global model...
+[2026-05-21 15:50:43] [FL] Global model sent successfully
+
+[2026-05-21 15:51:03] 
+[CLIENT] Received | samples=30 | node accuracy=70.0%
+[2026-05-21 15:51:03] [CLIENT] Received weights: min=-6.9291, max=6.2992, mean=-0.0468
+[2026-05-21 15:51:03] [SIM] Created 3 heterogeneous clients
+[2026-05-21 15:51:03] 
+[FL] Round 7: Federated Averaging...
+[2026-05-21 15:51:03] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 15:51:03] [ACCURACY] Global accuracy: 46.0%
+[2026-05-21 15:51:03] [ACCURACY] Change: +2.0%
+[2026-05-21 15:51:03] [FL] Global weights to send: min=-6.5391, max=6.4272, mean=-0.0555
+[2026-05-21 15:51:03] [FL] Sending global model...
+[2026-05-21 15:51:03] [FL] Global model sent successfully
+
+[2026-05-21 15:51:23] 
+[CLIENT] Received | samples=30 | node accuracy=70.0%
+[2026-05-21 15:51:23] [CLIENT] Received weights: min=-9.0551, max=6.6142, mean=-0.0738
+[2026-05-21 15:51:23] [SIM] Created 3 heterogeneous clients
+[2026-05-21 15:51:23] 
+[FL] Round 8: Federated Averaging...
+[2026-05-21 15:51:23] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 15:51:23] [ACCURACY] Global accuracy: 50.0%
+[2026-05-21 15:51:23] [ACCURACY] Change: +4.0%
+[2026-05-21 15:51:23] [FL] Global weights to send: min=-7.7969, max=6.5192, mean=-0.0647
+[2026-05-21 15:51:23] [FL] Sending global model...
+[2026-05-21 15:51:23] [FL] Global model sent successfully
+
+[2026-05-21 15:51:43] 
+[CLIENT] Received | samples=30 | node accuracy=80.0%
+[2026-05-21 15:51:43] [CLIENT] Received weights: min=-10.0787, max=7.6378, mean=-0.0714
+[2026-05-21 15:51:43] [SIM] Created 3 heterogeneous clients
+[2026-05-21 15:51:43] 
+[FL] Round 9: Federated Averaging...
+[2026-05-21 15:51:43] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 15:51:43] [ACCURACY] Global accuracy: 50.0%
+[2026-05-21 15:51:43] [ACCURACY] Change: +0.0%
+[2026-05-21 15:51:43] [FL] Global weights to send: min=-8.9389, max=7.0787, mean=-0.0679
+[2026-05-21 15:51:43] [FL] Sending global model...
+[2026-05-21 15:51:43] [FL] Global model sent successfully
+
+[2026-05-21 15:52:03] 
+[CLIENT] Received | samples=30 | node accuracy=30.0%
+[2026-05-21 15:52:03] [CLIENT] Received weights: min=-9.3701, max=7.6378, mean=-0.0344
+[2026-05-21 15:52:03] [SIM] Created 3 heterogeneous clients
+[2026-05-21 15:52:03] 
+[FL] Round 10: Federated Averaging...
+[2026-05-21 15:52:03] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 15:52:03] [ACCURACY] Global accuracy: 58.0%
+[2026-05-21 15:52:03] [ACCURACY] Change: +8.0%
+[2026-05-21 15:52:03] [FL] Global weights to send: min=-9.1546, max=7.3579, mean=-0.0513
+[2026-05-21 15:52:03] [FL] Sending global model...
+[2026-05-21 15:52:03] [FL] Global model sent successfully
+
+[2026-05-21 15:52:23] 
+[CLIENT] Received | samples=30 | node accuracy=80.0%
+[2026-05-21 15:52:23] [CLIENT] Received weights: min=-9.6063, max=7.0866, mean=-0.0541
+[2026-05-21 15:52:23] [SIM] Created 3 heterogeneous clients
+[2026-05-21 15:52:23] 
+[FL] Round 11: Federated Averaging...
+[2026-05-21 15:52:23] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 15:52:23] [ACCURACY] Global accuracy: 60.0%
+[2026-05-21 15:52:23] [ACCURACY] Change: +2.0%
+[2026-05-21 15:52:23] [FL] Global weights to send: min=-9.3807, max=7.2221, mean=-0.0528
+[2026-05-21 15:52:23] [FL] Sending global model...
+[2026-05-21 15:52:23] [FL] Global model sent successfully
+
+[2026-05-21 15:52:43] 
+[CLIENT] Received | samples=30 | node accuracy=70.0%
+[2026-05-21 15:52:43] [CLIENT] Received weights: min=-10.0787, max=7.0079, mean=-0.0517
+[2026-05-21 15:52:43] [SIM] Created 3 heterogeneous clients
+[2026-05-21 15:52:43] 
+[FL] Round 12: Federated Averaging...
+[2026-05-21 15:52:43] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 15:52:43] [ACCURACY] Global accuracy: 68.0%
+[2026-05-21 15:52:43] [ACCURACY] Change: +8.0%
+[2026-05-21 15:52:43] [FL] Global weights to send: min=-9.7294, max=6.8774, mean=-0.0523
+[2026-05-21 15:52:43] [FL] Sending global model...
+[2026-05-21 15:52:43] [FL] Global model sent successfully
+
+[2026-05-21 15:53:03] 
+[CLIENT] Received | samples=30 | node accuracy=70.0%
+[2026-05-21 15:53:03] [CLIENT] Received weights: min=-10.0787, max=7.3228, mean=-0.0591
+[2026-05-21 15:53:03] [SIM] Created 3 heterogeneous clients
+[2026-05-21 15:53:03] 
+[FL] Round 13: Federated Averaging...
+[2026-05-21 15:53:03] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 15:53:03] [ACCURACY] Global accuracy: 66.0%
+[2026-05-21 15:53:03] [ACCURACY] Change: -2.0%
+[2026-05-21 15:53:03] [FL] Global weights to send: min=-9.9046, max=6.5998, mean=-0.0558
+[2026-05-21 15:53:03] [FL] Sending global model...
+[2026-05-21 15:53:03] [FL] Global model sent successfully
+
+[2026-05-21 15:53:23] 
+[CLIENT] Received | samples=30 | node accuracy=100.0%
+[2026-05-21 15:53:23] [CLIENT] Received weights: min=-10.0787, max=8.3465, mean=-0.0431
+[2026-05-21 15:53:23] [SIM] Created 3 heterogeneous clients
+[2026-05-21 15:53:23] 
+[FL] Round 14: Federated Averaging...
+[2026-05-21 15:53:23] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 15:53:23] [ACCURACY] Global accuracy: 76.0%
+[2026-05-21 15:53:23] [ACCURACY] Change: +10.0%
+[2026-05-21 15:53:23] [FL] Global weights to send: min=-9.9903, max=7.4738, mean=-0.0495
+[2026-05-21 15:53:23] [FL] Sending global model...
+[2026-05-21 15:53:23] [FL] Global model sent successfully
+
+[2026-05-21 15:53:43] 
+[CLIENT] Received | samples=30 | node accuracy=80.0%
+[2026-05-21 15:53:43] [CLIENT] Received weights: min=-10.0787, max=9.2913, mean=-0.0172
+[2026-05-21 15:53:43] [SIM] Created 3 heterogeneous clients
+[2026-05-21 15:53:43] 
+[FL] Round 15: Federated Averaging...
+[2026-05-21 15:53:43] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 15:53:43] [ACCURACY] Global accuracy: 70.0%
+[2026-05-21 15:53:43] [ACCURACY] Change: -6.0%
+[2026-05-21 15:53:43] [FL] Global weights to send: min=-10.0352, max=8.3827, mean=-0.0335
+[2026-05-21 15:53:43] [FL] Sending global model...
+[2026-05-21 15:53:43] [FL] Global model sent successfully
+
+[2026-05-21 15:54:03] 
+[CLIENT] Received | samples=30 | node accuracy=70.0%
+[2026-05-21 15:54:03] [CLIENT] Received weights: min=-10.0787, max=10.0000, mean=-0.0824
+[2026-05-21 15:54:03] [SIM] Created 3 heterogeneous clients
+[2026-05-21 15:54:03] 
+[FL] Round 16: Federated Averaging...
+[2026-05-21 15:54:03] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 15:54:03] [ACCURACY] Global accuracy: 66.0%
+[2026-05-21 15:54:03] [ACCURACY] Change: -4.0%
+[2026-05-21 15:54:03] [FL] Global weights to send: min=-10.0566, max=9.1912, mean=-0.0579
+[2026-05-21 15:54:03] [FL] Sending global model...
+[2026-05-21 15:54:03] [FL] Global model sent successfully
+
+[2026-05-21 15:54:23] 
+[CLIENT] Received | samples=30 | node accuracy=90.0%
+[2026-05-21 15:54:23] [CLIENT] Received weights: min=-10.0787, max=10.0000, mean=-0.0910
+[2026-05-21 15:54:23] [SIM] Created 3 heterogeneous clients
+[2026-05-21 15:54:23] 
+[FL] Round 17: Federated Averaging...
+[2026-05-21 15:54:23] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 15:54:23] [ACCURACY] Global accuracy: 64.0%
+[2026-05-21 15:54:23] [ACCURACY] Change: -2.0%
+[2026-05-21 15:54:23] [FL] Global weights to send: min=-10.0680, max=9.5958, mean=-0.0745
+[2026-05-21 15:54:23] [FL] Sending global model...
+[2026-05-21 15:54:23] [FL] Global model sent successfully
+
+[2026-05-21 15:54:43] 
+[CLIENT] Received | samples=30 | node accuracy=80.0%
+[2026-05-21 15:54:43] [CLIENT] Received weights: min=-10.0787, max=10.0000, mean=-0.0800
+[2026-05-21 15:54:43] [SIM] Created 3 heterogeneous clients
+[2026-05-21 15:54:43] 
+[FL] Round 18: Federated Averaging...
+[2026-05-21 15:54:43] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 15:54:43] [ACCURACY] Global accuracy: 62.0%
+[2026-05-21 15:54:43] [ACCURACY] Change: -2.0%
+[2026-05-21 15:54:43] [FL] Global weights to send: min=-9.9164, max=9.7969, mean=-0.0774
+[2026-05-21 15:54:43] [FL] Sending global model...
+[2026-05-21 15:54:43] [FL] Global model sent successfully
+
+[2026-05-21 15:55:03] 
+[CLIENT] Received | samples=30 | node accuracy=70.0%
+[2026-05-21 15:55:03] [CLIENT] Received weights: min=-9.6850, max=10.0000, mean=-0.0738
+[2026-05-21 15:55:03] [SIM] Created 3 heterogeneous clients
+[2026-05-21 15:55:03] 
+[FL] Round 19: Federated Averaging...
+[2026-05-21 15:55:03] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 15:55:03] [ACCURACY] Global accuracy: 68.0%
+[2026-05-21 15:55:03] [ACCURACY] Change: +6.0%
+[2026-05-21 15:55:03] [FL] Global weights to send: min=-9.7917, max=9.8990, mean=-0.0756
+[2026-05-21 15:55:03] [FL] Sending global model...
+[2026-05-21 15:55:03] [FL] Global model sent successfully
+
+[2026-05-21 15:55:23] 
+[CLIENT] Received | samples=30 | node accuracy=90.0%
+[2026-05-21 15:55:23] [CLIENT] Received weights: min=-9.9213, max=10.0000, mean=-0.1033
+[2026-05-21 15:55:23] [SIM] Created 3 heterogeneous clients
+[2026-05-21 15:55:23] 
+[FL] Round 20: Federated Averaging...
+[2026-05-21 15:55:23] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 15:55:23] [ACCURACY] Global accuracy: 70.0%
+[2026-05-21 15:55:23] [ACCURACY] Change: +2.0%
+[2026-05-21 15:55:23] [FL] Global weights to send: min=-9.8559, max=9.9483, mean=-0.0896
+[2026-05-21 15:55:23] [FL] Sending global model...
+[2026-05-21 15:55:23] [FL] Global model sent successfully
+
+[2026-05-21 15:55:43] 
+[CLIENT] Received | samples=30 | node accuracy=80.0%
+[2026-05-21 15:55:43] [CLIENT] Received weights: min=-9.4488, max=10.0000, mean=-0.0800
+[2026-05-21 15:55:43] [SIM] Created 3 heterogeneous clients
+[2026-05-21 15:55:43] 
+[FL] Round 21: Federated Averaging...
+[2026-05-21 15:55:43] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 15:55:43] [ACCURACY] Global accuracy: 68.0%
+[2026-05-21 15:55:43] [ACCURACY] Change: -2.0%
+[2026-05-21 15:55:43] [FL] Global weights to send: min=-9.6519, max=9.9739, mean=-0.0848
+[2026-05-21 15:55:43] [FL] Sending global model...
+[2026-05-21 15:55:43] [FL] Global model sent successfully
+
+[2026-05-21 15:56:03] 
+[CLIENT] Received | samples=30 | node accuracy=60.0%
+[2026-05-21 15:56:03] [CLIENT] Received weights: min=-10.0787, max=9.9213, mean=-0.1033
+[2026-05-21 15:56:03] [SIM] Created 3 heterogeneous clients
+[2026-05-21 15:56:03] 
+[FL] Round 22: Federated Averaging...
+[2026-05-21 15:56:03] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 15:56:03] [ACCURACY] Global accuracy: 72.0%
+[2026-05-21 15:56:03] [ACCURACY] Change: +4.0%
+[2026-05-21 15:56:03] [FL] Global weights to send: min=-9.8662, max=9.9475, mean=-0.0940
+[2026-05-21 15:56:03] [FL] Sending global model...
+[2026-05-21 15:56:03] [FL] Global model sent successfully
+
+[2026-05-21 15:56:23] 
+[CLIENT] Received | samples=30 | node accuracy=100.0%
+[2026-05-21 15:56:23] [CLIENT] Received weights: min=-10.0787, max=10.0000, mean=-0.0960
+[2026-05-21 15:56:23] [SIM] Created 3 heterogeneous clients
+[2026-05-21 15:56:23] 
+[FL] Round 23: Federated Averaging...
+[2026-05-21 15:56:23] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 15:56:23] [ACCURACY] Global accuracy: 74.0%
+[2026-05-21 15:56:23] [ACCURACY] Change: +2.0%
+[2026-05-21 15:56:23] [FL] Global weights to send: min=-9.9725, max=9.9744, mean=-0.0950
+[2026-05-21 15:56:23] [FL] Sending global model...
+[2026-05-21 15:56:23] [FL] Global model sent successfully
+
+[2026-05-21 15:56:43] 
+[CLIENT] Received | samples=30 | node accuracy=90.0%
+[2026-05-21 15:56:43] [CLIENT] Received weights: min=-10.0787, max=10.0000, mean=-0.0652
+[2026-05-21 15:56:43] [SIM] Created 3 heterogeneous clients
+[2026-05-21 15:56:43] 
+[FL] Round 24: Federated Averaging...
+[2026-05-21 15:56:43] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 15:56:43] [ACCURACY] Global accuracy: 74.0%
+[2026-05-21 15:56:43] [ACCURACY] Change: +0.0%
+[2026-05-21 15:56:43] [FL] Global weights to send: min=-10.0245, max=9.9876, mean=-0.0801
+[2026-05-21 15:56:43] [FL] Sending global model...
+[2026-05-21 15:56:43] [FL] Global model sent successfully
+
+[2026-05-21 15:57:03] 
+[CLIENT] Received | samples=30 | node accuracy=100.0%
+[2026-05-21 15:57:03] [CLIENT] Received weights: min=-10.0787, max=10.0000, mean=-0.0701
+[2026-05-21 15:57:03] [SIM] Created 3 heterogeneous clients
+[2026-05-21 15:57:03] 
+[FL] Round 25: Federated Averaging...
+[2026-05-21 15:57:03] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 15:57:03] [ACCURACY] Global accuracy: 76.0%
+[2026-05-21 15:57:03] [ACCURACY] Change: +2.0%
+[2026-05-21 15:57:03] [FL] Global weights to send: min=-10.0505, max=9.9931, mean=-0.0752
+[2026-05-21 15:57:03] [FL] Sending global model...
+[2026-05-21 15:57:03] [FL] Global model sent successfully
+
+[2026-05-21 15:57:23] 
+[CLIENT] Received | samples=30 | node accuracy=90.0%
+[2026-05-21 15:57:23] [CLIENT] Received weights: min=-10.0787, max=10.0000, mean=-0.0615
+[2026-05-21 15:57:23] [SIM] Created 3 heterogeneous clients
+[2026-05-21 15:57:23] 
+[FL] Round 26: Federated Averaging...
+[2026-05-21 15:57:23] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 15:57:23] [ACCURACY] Global accuracy: 78.0%
+[2026-05-21 15:57:23] [ACCURACY] Change: +2.0%
+[2026-05-21 15:57:23] [FL] Global weights to send: min=-10.0660, max=9.9963, mean=-0.0685
+[2026-05-21 15:57:23] [FL] Sending global model...
+[2026-05-21 15:57:23] [FL] Global model sent successfully
+
+[2026-05-21 15:57:43] 
+[CLIENT] Received | samples=30 | node accuracy=90.0%
+[2026-05-21 15:57:43] [CLIENT] Received weights: min=-10.0787, max=10.0000, mean=-0.0295
+[2026-05-21 15:57:43] [SIM] Created 3 heterogeneous clients
+[2026-05-21 15:57:43] 
+[FL] Round 27: Federated Averaging...
+[2026-05-21 15:57:43] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 15:57:43] [ACCURACY] Global accuracy: 78.0%
+[2026-05-21 15:57:43] [ACCURACY] Change: +0.0%
+[2026-05-21 15:57:43] [FL] Global weights to send: min=-10.0722, max=9.9991, mean=-0.0490
+[2026-05-21 15:57:43] [FL] Sending global model...
+[2026-05-21 15:57:43] [FL] Global model sent successfully
+
+[2026-05-21 15:58:03] 
+[CLIENT] Received | samples=30 | node accuracy=70.0%
+[2026-05-21 15:58:03] [CLIENT] Received weights: min=-10.0787, max=9.3701, mean=0.0074
+[2026-05-21 15:58:03] [SIM] Created 3 heterogeneous clients
+[2026-05-21 15:58:03] 
+[FL] Round 28: Federated Averaging...
+[2026-05-21 15:58:03] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 15:58:03] [ACCURACY] Global accuracy: 72.0%
+[2026-05-21 15:58:03] [ACCURACY] Change: -6.0%
+[2026-05-21 15:58:03] [FL] Global weights to send: min=-9.9970, max=9.6855, mean=-0.0208
+[2026-05-21 15:58:03] [FL] Sending global model...
+[2026-05-21 15:58:03] [FL] Global model sent successfully
+
+[2026-05-21 15:58:23] 
+[CLIENT] Received | samples=30 | node accuracy=80.0%
+[2026-05-21 15:58:23] [CLIENT] Received weights: min=-10.0787, max=8.8976, mean=-0.0172
+[2026-05-21 15:58:23] [SIM] Created 3 heterogeneous clients
+[2026-05-21 15:58:23] 
+[FL] Round 29: Federated Averaging...
+[2026-05-21 15:58:23] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 15:58:23] [ACCURACY] Global accuracy: 74.0%
+[2026-05-21 15:58:23] [ACCURACY] Change: +2.0%
+[2026-05-21 15:58:23] [FL] Global weights to send: min=-9.9941, max=9.2924, mean=-0.0191
+[2026-05-21 15:58:23] [FL] Sending global model...
+[2026-05-21 15:58:23] [FL] Global model sent successfully
+
+[2026-05-21 15:58:43] 
+[CLIENT] Received | samples=30 | node accuracy=80.0%
+[2026-05-21 15:58:43] [CLIENT] Received weights: min=-9.4488, max=9.0551, mean=-0.0172
+[2026-05-21 15:58:43] [SIM] Created 3 heterogeneous clients
+[2026-05-21 15:58:43] 
+[FL] Round 30: Federated Averaging...
+[2026-05-21 15:58:43] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 15:58:43] [ACCURACY] Global accuracy: 72.0%
+[2026-05-21 15:58:43] [ACCURACY] Change: -2.0%
+[2026-05-21 15:58:43] [FL] Global weights to send: min=-9.7203, max=9.1738, mean=-0.0182
+[2026-05-21 15:58:43] [FL] Sending global model...
+[2026-05-21 15:58:43] [FL] Global model sent successfully
+
+[2026-05-21 15:59:03] 
+[CLIENT] Received | samples=30 | node accuracy=90.0%
+[2026-05-21 15:59:03] [CLIENT] Received weights: min=-8.9764, max=10.0000, mean=0.0160
+[2026-05-21 15:59:03] [SIM] Created 3 heterogeneous clients
+[2026-05-21 15:59:03] 
+[FL] Round 31: Federated Averaging...
+[2026-05-21 15:59:03] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 15:59:03] [ACCURACY] Global accuracy: 76.0%
+[2026-05-21 15:59:03] [ACCURACY] Change: +4.0%
+[2026-05-21 15:59:03] [FL] Global weights to send: min=-9.3274, max=9.5861, mean=-0.0011
+[2026-05-21 15:59:03] [FL] Sending global model...
+[2026-05-21 15:59:03] [FL] Global model sent successfully
+
+[2026-05-21 15:59:23] 
+[CLIENT] Received | samples=30 | node accuracy=90.0%
+[2026-05-21 15:59:23] [CLIENT] Received weights: min=-8.8976, max=10.0000, mean=0.0062
+[2026-05-21 15:59:23] [SIM] Created 3 heterogeneous clients
+[2026-05-21 15:59:23] 
+[FL] Round 32: Federated Averaging...
+[2026-05-21 15:59:23] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 15:59:23] [ACCURACY] Global accuracy: 70.0%
+[2026-05-21 15:59:23] [ACCURACY] Change: -6.0%
+[2026-05-21 15:59:23] [FL] Global weights to send: min=-9.1029, max=9.7925, mean=0.0025
+[2026-05-21 15:59:23] [FL] Sending global model...
+[2026-05-21 15:59:23] [FL] Global model sent successfully
+
+[2026-05-21 15:59:43] 
+[CLIENT] Received | samples=30 | node accuracy=80.0%
+[2026-05-21 15:59:43] [CLIENT] Received weights: min=-10.0787, max=10.0000, mean=0.0209
+[2026-05-21 15:59:43] [SIM] Created 3 heterogeneous clients
+[2026-05-21 15:59:43] 
+[FL] Round 33: Federated Averaging...
+[2026-05-21 15:59:43] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 15:59:43] [ACCURACY] Global accuracy: 72.0%
+[2026-05-21 15:59:43] [ACCURACY] Change: +2.0%
+[2026-05-21 15:59:43] [FL] Global weights to send: min=-9.3668, max=9.8952, mean=0.0118
+[2026-05-21 15:59:43] [FL] Sending global model...
+[2026-05-21 15:59:43] [FL] Global model sent successfully
+
+[2026-05-21 16:00:03] 
+[CLIENT] Received | samples=30 | node accuracy=80.0%
+[2026-05-21 16:00:03] [CLIENT] Received weights: min=-10.0787, max=10.0000, mean=0.0406
+[2026-05-21 16:00:03] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:00:03] 
+[FL] Round 34: Federated Averaging...
+[2026-05-21 16:00:03] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:00:03] [ACCURACY] Global accuracy: 74.0%
+[2026-05-21 16:00:03] [ACCURACY] Change: +2.0%
+[2026-05-21 16:00:03] [FL] Global weights to send: min=-9.7228, max=9.9475, mean=0.0262
+[2026-05-21 16:00:03] [FL] Sending global model...
+[2026-05-21 16:00:03] [FL] Global model sent successfully
+
+[2026-05-21 16:00:23] 
+[CLIENT] Received | samples=30 | node accuracy=100.0%
+[2026-05-21 16:00:23] [CLIENT] Received weights: min=-10.0787, max=10.0000, mean=0.0726
+[2026-05-21 16:00:23] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:00:23] 
+[FL] Round 35: Federated Averaging...
+[2026-05-21 16:00:23] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:00:23] [ACCURACY] Global accuracy: 70.0%
+[2026-05-21 16:00:23] [ACCURACY] Change: -4.0%
+[2026-05-21 16:00:23] [FL] Global weights to send: min=-9.9007, max=9.9741, mean=0.0495
+[2026-05-21 16:00:23] [FL] Sending global model...
+[2026-05-21 16:00:23] [FL] Global model sent successfully
+
+[2026-05-21 16:00:43] 
+[CLIENT] Received | samples=30 | node accuracy=60.0%
+[2026-05-21 16:00:43] [CLIENT] Received weights: min=-10.0787, max=10.0000, mean=0.0763
+[2026-05-21 16:00:43] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:00:43] 
+[FL] Round 36: Federated Averaging...
+[2026-05-21 16:00:43] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:00:43] [ACCURACY] Global accuracy: 72.0%
+[2026-05-21 16:00:43] [ACCURACY] Change: +2.0%
+[2026-05-21 16:00:43] [FL] Global weights to send: min=-9.9893, max=9.9871, mean=0.0628
+[2026-05-21 16:00:43] [FL] Sending global model...
+[2026-05-21 16:00:43] [FL] Global model sent successfully
+
+[2026-05-21 16:01:03] 
+[CLIENT] Received | samples=30 | node accuracy=90.0%
+[2026-05-21 16:01:03] [CLIENT] Received weights: min=-10.0787, max=10.0000, mean=0.0381
+[2026-05-21 16:01:03] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:01:03] 
+[FL] Round 37: Federated Averaging...
+[2026-05-21 16:01:03] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:01:03] [ACCURACY] Global accuracy: 76.0%
+[2026-05-21 16:01:03] [ACCURACY] Change: +4.0%
+[2026-05-21 16:01:03] [FL] Global weights to send: min=-10.0339, max=9.9937, mean=0.0504
+[2026-05-21 16:01:03] [FL] Sending global model...
+[2026-05-21 16:01:03] [FL] Global model sent successfully
+
+[2026-05-21 16:01:23] 
+[CLIENT] Received | samples=30 | node accuracy=80.0%
+[2026-05-21 16:01:23] [CLIENT] Received weights: min=-10.0787, max=10.0000, mean=0.0406
+[2026-05-21 16:01:23] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:01:23] 
+[FL] Round 38: Federated Averaging...
+[2026-05-21 16:01:23] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:01:23] [ACCURACY] Global accuracy: 78.0%
+[2026-05-21 16:01:23] [ACCURACY] Change: +2.0%
+[2026-05-21 16:01:23] [FL] Global weights to send: min=-10.0563, max=9.9969, mean=0.0454
+[2026-05-21 16:01:23] [FL] Sending global model...
+[2026-05-21 16:01:23] [FL] Global model sent successfully
+
+[2026-05-21 16:01:43] 
+[CLIENT] Received | samples=30 | node accuracy=90.0%
+[2026-05-21 16:01:43] [CLIENT] Received weights: min=-10.0787, max=10.0000, mean=0.0517
+[2026-05-21 16:01:43] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:01:43] 
+[FL] Round 39: Federated Averaging...
+[2026-05-21 16:01:43] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:01:43] [ACCURACY] Global accuracy: 78.0%
+[2026-05-21 16:01:43] [ACCURACY] Change: +0.0%
+[2026-05-21 16:01:43] [FL] Global weights to send: min=-10.0684, max=9.9984, mean=0.0485
+[2026-05-21 16:01:43] [FL] Sending global model...
+[2026-05-21 16:01:43] [FL] Global model sent successfully
+
+[2026-05-21 16:02:03] 
+[CLIENT] Received | samples=30 | node accuracy=60.0%
+[2026-05-21 16:02:03] [CLIENT] Received weights: min=-10.0787, max=10.0000, mean=0.0025
+[2026-05-21 16:02:03] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:02:03] 
+[FL] Round 40: Federated Averaging...
+[2026-05-21 16:02:03] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:02:03] [ACCURACY] Global accuracy: 78.0%
+[2026-05-21 16:02:03] [ACCURACY] Change: +0.0%
+[2026-05-21 16:02:03] [FL] Global weights to send: min=-10.0742, max=9.9988, mean=0.0255
+[2026-05-21 16:02:03] [FL] Sending global model...
+[2026-05-21 16:02:03] [FL] Global model sent successfully
+
+[2026-05-21 16:02:23] 
+[CLIENT] Received | samples=30 | node accuracy=70.0%
+[2026-05-21 16:02:23] [CLIENT] Received weights: min=-10.0000, max=10.0000, mean=0.1021
+[2026-05-21 16:02:23] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:02:23] 
+[FL] Round 41: Federated Averaging...
+[2026-05-21 16:02:23] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:02:23] [ACCURACY] Global accuracy: 80.0%
+[2026-05-21 16:02:23] [ACCURACY] Change: +2.0%
+[2026-05-21 16:02:23] [FL] Global weights to send: min=-9.8672, max=10.0002, mean=0.0637
+[2026-05-21 16:02:23] [FL] Sending global model...
+[2026-05-21 16:02:23] [FL] Global model sent successfully
+
+[2026-05-21 16:02:43] 
+[CLIENT] Received | samples=30 | node accuracy=90.0%
+[2026-05-21 16:02:43] [CLIENT] Received weights: min=-9.5276, max=10.0000, mean=0.0800
+[2026-05-21 16:02:43] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:02:43] 
+[FL] Round 42: Federated Averaging...
+[2026-05-21 16:02:43] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:02:43] [ACCURACY] Global accuracy: 82.0%
+[2026-05-21 16:02:43] [ACCURACY] Change: +2.0%
+[2026-05-21 16:02:43] [FL] Global weights to send: min=-9.6962, max=9.9993, mean=0.0719
+[2026-05-21 16:02:43] [FL] Sending global model...
+[2026-05-21 16:02:43] [FL] Global model sent successfully
+
+[2026-05-21 16:03:03] 
+[CLIENT] Received | samples=30 | node accuracy=80.0%
+[2026-05-21 16:03:03] [CLIENT] Received weights: min=-9.4488, max=10.0000, mean=0.0750
+[2026-05-21 16:03:03] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:03:03] 
+[FL] Round 43: Federated Averaging...
+[2026-05-21 16:03:03] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:03:03] [ACCURACY] Global accuracy: 78.0%
+[2026-05-21 16:03:03] [ACCURACY] Change: -4.0%
+[2026-05-21 16:03:03] [FL] Global weights to send: min=-9.5725, max=9.9995, mean=0.0734
+[2026-05-21 16:03:03] [FL] Sending global model...
+[2026-05-21 16:03:03] [FL] Global model sent successfully
+
+[2026-05-21 16:03:23] 
+[CLIENT] Received | samples=30 | node accuracy=90.0%
+[2026-05-21 16:03:23] [CLIENT] Received weights: min=-10.0787, max=10.0000, mean=0.0541
+[2026-05-21 16:03:23] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:03:23] 
+[FL] Round 44: Federated Averaging...
+[2026-05-21 16:03:23] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:03:23] [ACCURACY] Global accuracy: 74.0%
+[2026-05-21 16:03:23] [ACCURACY] Change: -4.0%
+[2026-05-21 16:03:23] [FL] Global weights to send: min=-9.8246, max=10.0000, mean=0.0638
+[2026-05-21 16:03:23] [FL] Sending global model...
+[2026-05-21 16:03:23] [FL] Global model sent successfully
+
+[2026-05-21 16:03:43] 
+[CLIENT] Received | samples=30 | node accuracy=100.0%
+[2026-05-21 16:03:43] [CLIENT] Received weights: min=-10.0787, max=10.0000, mean=0.0197
+[2026-05-21 16:03:43] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:03:43] 
+[FL] Round 45: Federated Averaging...
+[2026-05-21 16:03:43] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:03:43] [ACCURACY] Global accuracy: 70.0%
+[2026-05-21 16:03:43] [ACCURACY] Change: -4.0%
+[2026-05-21 16:03:43] [FL] Global weights to send: min=-9.9527, max=10.0001, mean=0.0417
+[2026-05-21 16:03:43] [FL] Sending global model...
+[2026-05-21 16:03:43] [FL] Global model sent successfully
+
+[2026-05-21 16:04:03] 
+[CLIENT] Received | samples=30 | node accuracy=100.0%
+[2026-05-21 16:04:03] [CLIENT] Received weights: min=-10.0787, max=10.0000, mean=0.0886
+[2026-05-21 16:04:03] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:04:03] 
+[FL] Round 46: Federated Averaging...
+[2026-05-21 16:04:03] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:04:03] [ACCURACY] Global accuracy: 76.0%
+[2026-05-21 16:04:03] [ACCURACY] Change: +6.0%
+[2026-05-21 16:04:03] [FL] Global weights to send: min=-10.0166, max=9.9992, mean=0.0651
+[2026-05-21 16:04:03] [FL] Sending global model...
+[2026-05-21 16:04:03] [FL] Global model sent successfully
+
+[2026-05-21 16:04:23] 
+[CLIENT] Received | samples=30 | node accuracy=90.0%
+[2026-05-21 16:04:23] [CLIENT] Received weights: min=-10.0787, max=10.0000, mean=0.0861
+[2026-05-21 16:04:23] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:04:23] 
+[FL] Round 47: Federated Averaging...
+[2026-05-21 16:04:23] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:04:23] [ACCURACY] Global accuracy: 76.0%
+[2026-05-21 16:04:23] [ACCURACY] Change: +0.0%
+[2026-05-21 16:04:23] [FL] Global weights to send: min=-10.0462, max=10.0005, mean=0.0755
+[2026-05-21 16:04:23] [FL] Sending global model...
+[2026-05-21 16:04:23] [FL] Global model sent successfully
+
+[2026-05-21 16:04:43] 
+[CLIENT] Received | samples=30 | node accuracy=80.0%
+[2026-05-21 16:04:43] [CLIENT] Received weights: min=-10.0787, max=10.0000, mean=0.1144
+[2026-05-21 16:04:43] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:04:43] 
+[FL] Round 48: Federated Averaging...
+[2026-05-21 16:04:43] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:04:43] [ACCURACY] Global accuracy: 74.0%
+[2026-05-21 16:04:43] [ACCURACY] Change: -2.0%
+[2026-05-21 16:04:43] [FL] Global weights to send: min=-10.0619, max=10.0017, mean=0.0950
+[2026-05-21 16:04:43] [FL] Sending global model...
+[2026-05-21 16:04:43] [FL] Global model sent successfully
+
+[2026-05-21 16:05:03] 
+[CLIENT] Received | samples=30 | node accuracy=50.0%
+[2026-05-21 16:05:03] [CLIENT] Received weights: min=-9.9213, max=10.0000, mean=0.0787
+[2026-05-21 16:05:03] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:05:03] 
+[FL] Round 49: Federated Averaging...
+[2026-05-21 16:05:03] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:05:03] [ACCURACY] Global accuracy: 78.0%
+[2026-05-21 16:05:03] [ACCURACY] Change: +4.0%
+[2026-05-21 16:05:03] [FL] Global weights to send: min=-9.9686, max=10.0011, mean=0.0869
+[2026-05-21 16:05:03] [FL] Sending global model...
+[2026-05-21 16:05:03] [FL] Global model sent successfully
+
+[2026-05-21 16:05:23] 
+[CLIENT] Received | samples=30 | node accuracy=40.0%
+[2026-05-21 16:05:23] [CLIENT] Received weights: min=-10.0787, max=10.0000, mean=0.1255
+[2026-05-21 16:05:23] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:05:23] 
+[FL] Round 50: Federated Averaging...
+[2026-05-21 16:05:23] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:05:23] [ACCURACY] Global accuracy: 72.0%
+[2026-05-21 16:05:23] [ACCURACY] Change: -6.0%
+[2026-05-21 16:05:23] [FL] Global weights to send: min=-10.0233, max=10.0013, mean=0.1063
+[2026-05-21 16:05:23] [FL] Sending global model...
+[2026-05-21 16:05:23] [FL] Global model sent successfully
+
+[2026-05-21 16:05:43] 
+[CLIENT] Received | samples=30 | node accuracy=60.0%
+[2026-05-21 16:05:43] [CLIENT] Received weights: min=-10.0787, max=9.7638, mean=0.1439
+[2026-05-21 16:05:43] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:05:43] 
+[FL] Round 51: Federated Averaging...
+[2026-05-21 16:05:43] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:05:43] [ACCURACY] Global accuracy: 78.0%
+[2026-05-21 16:05:43] [ACCURACY] Change: +6.0%
+[2026-05-21 16:05:43] [FL] Global weights to send: min=-10.0504, max=9.8633, mean=0.1252
+[2026-05-21 16:05:43] [FL] Sending global model...
+[2026-05-21 16:05:43] [FL] Global model sent successfully
+
+[2026-05-21 16:06:03] 
+[CLIENT] Received | samples=30 | node accuracy=80.0%
+[2026-05-21 16:06:03] [CLIENT] Received weights: min=-10.0787, max=9.6063, mean=0.1821
+[2026-05-21 16:06:03] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:06:03] 
+[FL] Round 52: Federated Averaging...
+[2026-05-21 16:06:03] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:06:03] [ACCURACY] Global accuracy: 78.0%
+[2026-05-21 16:06:03] [ACCURACY] Change: +0.0%
+[2026-05-21 16:06:03] [FL] Global weights to send: min=-10.0639, max=9.7344, mean=0.1536
+[2026-05-21 16:06:03] [FL] Sending global model...
+[2026-05-21 16:06:03] [FL] Global model sent successfully
+
+[2026-05-21 16:06:23] 
+[CLIENT] Received | samples=30 | node accuracy=70.0%
+[2026-05-21 16:06:23] [CLIENT] Received weights: min=-10.0787, max=9.4488, mean=0.1870
+[2026-05-21 16:06:23] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:06:23] 
+[FL] Round 53: Federated Averaging...
+[2026-05-21 16:06:23] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:06:23] [ACCURACY] Global accuracy: 82.0%
+[2026-05-21 16:06:23] [ACCURACY] Change: +4.0%
+[2026-05-21 16:06:23] [FL] Global weights to send: min=-10.0713, max=9.4345, mean=0.1704
+[2026-05-21 16:06:23] [FL] Sending global model...
+[2026-05-21 16:06:23] [FL] Global model sent successfully
+
+[2026-05-21 16:06:43] 
+[CLIENT] Received | samples=30 | node accuracy=60.0%
+[2026-05-21 16:06:43] [CLIENT] Received weights: min=-10.0787, max=9.5276, mean=0.1882
+[2026-05-21 16:06:43] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:06:43] 
+[FL] Round 54: Federated Averaging...
+[2026-05-21 16:06:43] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:06:43] [ACCURACY] Global accuracy: 80.0%
+[2026-05-21 16:06:43] [ACCURACY] Change: -2.0%
+[2026-05-21 16:06:43] [FL] Global weights to send: min=-10.0688, max=9.4334, mean=0.1794
+[2026-05-21 16:06:43] [FL] Sending global model...
+[2026-05-21 16:06:43] [FL] Global model sent successfully
+
+[2026-05-21 16:07:03] 
+[CLIENT] Received | samples=30 | node accuracy=90.0%
+[2026-05-21 16:07:03] [CLIENT] Received weights: min=-10.0787, max=10.0000, mean=0.1969
+[2026-05-21 16:07:03] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:07:03] 
+[FL] Round 55: Federated Averaging...
+[2026-05-21 16:07:03] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:07:03] [ACCURACY] Global accuracy: 76.0%
+[2026-05-21 16:07:03] [ACCURACY] Change: -4.0%
+[2026-05-21 16:07:03] [FL] Global weights to send: min=-10.0752, max=9.7154, mean=0.1881
+[2026-05-21 16:07:03] [FL] Sending global model...
+[2026-05-21 16:07:03] [FL] Global model sent successfully
+
+[2026-05-21 16:07:23] 
+[CLIENT] Received | samples=30 | node accuracy=80.0%
+[2026-05-21 16:07:23] [CLIENT] Received weights: min=-10.0787, max=10.0000, mean=0.1919
+[2026-05-21 16:07:23] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:07:23] 
+[FL] Round 56: Federated Averaging...
+[2026-05-21 16:07:23] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:07:23] [ACCURACY] Global accuracy: 68.0%
+[2026-05-21 16:07:23] [ACCURACY] Change: -8.0%
+[2026-05-21 16:07:23] [FL] Global weights to send: min=-10.0759, max=9.8573, mean=0.1901
+[2026-05-21 16:07:23] [FL] Sending global model...
+[2026-05-21 16:07:23] [FL] Global model sent successfully
+
+[2026-05-21 16:07:43] 
+[CLIENT] Received | samples=30 | node accuracy=70.0%
+[2026-05-21 16:07:43] [CLIENT] Received weights: min=-10.0787, max=10.0000, mean=0.1575
+[2026-05-21 16:07:43] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:07:43] 
+[FL] Round 57: Federated Averaging...
+[2026-05-21 16:07:43] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:07:43] [ACCURACY] Global accuracy: 74.0%
+[2026-05-21 16:07:43] [ACCURACY] Change: +6.0%
+[2026-05-21 16:07:43] [FL] Global weights to send: min=-10.0779, max=9.9302, mean=0.1737
+[2026-05-21 16:07:43] [FL] Sending global model...
+[2026-05-21 16:07:43] [FL] Global model sent successfully
+
+[2026-05-21 16:08:03] 
+[CLIENT] Received | samples=30 | node accuracy=90.0%
+[2026-05-21 16:08:03] [CLIENT] Received weights: min=-10.0787, max=10.0000, mean=0.1661
+[2026-05-21 16:08:03] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:08:03] 
+[FL] Round 58: Federated Averaging...
+[2026-05-21 16:08:03] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:08:03] [ACCURACY] Global accuracy: 70.0%
+[2026-05-21 16:08:03] [ACCURACY] Change: -4.0%
+[2026-05-21 16:08:03] [FL] Global weights to send: min=-10.0771, max=9.9658, mean=0.1701
+[2026-05-21 16:08:03] [FL] Sending global model...
+[2026-05-21 16:08:03] [FL] Global model sent successfully
+
+[2026-05-21 16:08:23] 
+[CLIENT] Received | samples=30 | node accuracy=50.0%
+[2026-05-21 16:08:23] [CLIENT] Received weights: min=-10.0787, max=10.0000, mean=0.1821
+[2026-05-21 16:08:23] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:08:23] 
+[FL] Round 59: Federated Averaging...
+[2026-05-21 16:08:23] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:08:23] [ACCURACY] Global accuracy: 68.0%
+[2026-05-21 16:08:23] [ACCURACY] Change: -2.0%
+[2026-05-21 16:08:23] [FL] Global weights to send: min=-10.0778, max=9.9821, mean=0.1761
+[2026-05-21 16:08:23] [FL] Sending global model...
+[2026-05-21 16:08:23] [FL] Global model sent successfully
+
+[2026-05-21 16:08:43] 
+[CLIENT] Received | samples=30 | node accuracy=90.0%
+[2026-05-21 16:08:43] [CLIENT] Received weights: min=-10.0787, max=10.0000, mean=0.1969
+[2026-05-21 16:08:43] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:08:43] 
+[FL] Round 60: Federated Averaging...
+[2026-05-21 16:08:43] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:08:43] [ACCURACY] Global accuracy: 72.0%
+[2026-05-21 16:08:43] [ACCURACY] Change: +4.0%
+[2026-05-21 16:08:43] [FL] Global weights to send: min=-10.0777, max=9.9905, mean=0.1865
+[2026-05-21 16:08:43] [FL] Sending global model...
+[2026-05-21 16:08:43] [FL] Global model sent successfully
+
+[2026-05-21 16:09:03] 
+[CLIENT] Received | samples=30 | node accuracy=100.0%
+[2026-05-21 16:09:03] [CLIENT] Received weights: min=-10.0787, max=10.0000, mean=0.1858
+[2026-05-21 16:09:03] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:09:03] 
+[FL] Round 61: Federated Averaging...
+[2026-05-21 16:09:03] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:09:03] [ACCURACY] Global accuracy: 70.0%
+[2026-05-21 16:09:03] [ACCURACY] Change: -2.0%
+[2026-05-21 16:09:03] [FL] Global weights to send: min=-10.0782, max=9.9971, mean=0.1862
+[2026-05-21 16:09:03] [FL] Sending global model...
+[2026-05-21 16:09:03] [FL] Global model sent successfully
+
+[2026-05-21 16:09:23] 
+[CLIENT] Received | samples=30 | node accuracy=90.0%
+[2026-05-21 16:09:23] [CLIENT] Received weights: min=-10.0787, max=10.0000, mean=0.1747
+[2026-05-21 16:09:23] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:09:23] 
+[FL] Round 62: Federated Averaging...
+[2026-05-21 16:09:23] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:09:23] [ACCURACY] Global accuracy: 76.0%
+[2026-05-21 16:09:23] [ACCURACY] Change: +6.0%
+[2026-05-21 16:09:23] [FL] Global weights to send: min=-10.0776, max=9.9981, mean=0.1806
+[2026-05-21 16:09:23] [FL] Sending global model...
+[2026-05-21 16:09:23] [FL] Global model sent successfully
+
+[2026-05-21 16:09:43] 
+[CLIENT] Received | samples=30 | node accuracy=90.0%
+[2026-05-21 16:09:43] [CLIENT] Received weights: min=-10.0787, max=10.0000, mean=0.1538
+[2026-05-21 16:09:43] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:09:43] 
+[FL] Round 63: Federated Averaging...
+[2026-05-21 16:09:43] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:09:43] [ACCURACY] Global accuracy: 76.0%
+[2026-05-21 16:09:43] [ACCURACY] Change: +0.0%
+[2026-05-21 16:09:43] [FL] Global weights to send: min=-10.0789, max=9.9991, mean=0.1672
+[2026-05-21 16:09:43] [FL] Sending global model...
+[2026-05-21 16:09:43] [FL] Global model sent successfully
+
+[2026-05-21 16:10:03] 
+[CLIENT] Received | samples=30 | node accuracy=80.0%
+[2026-05-21 16:10:03] [CLIENT] Received weights: min=-9.6850, max=10.0000, mean=0.1476
+[2026-05-21 16:10:03] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:10:03] 
+[FL] Round 64: Federated Averaging...
+[2026-05-21 16:10:03] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:10:03] [ACCURACY] Global accuracy: 76.0%
+[2026-05-21 16:10:03] [ACCURACY] Change: +0.0%
+[2026-05-21 16:10:03] [FL] Global weights to send: min=-9.8812, max=9.9243, mean=0.1575
+[2026-05-21 16:10:03] [FL] Sending global model...
+[2026-05-21 16:10:03] [FL] Global model sent successfully
+
+[2026-05-21 16:10:23] 
+[CLIENT] Received | samples=30 | node accuracy=60.0%
+[2026-05-21 16:10:23] [CLIENT] Received weights: min=-8.7402, max=9.6850, mean=0.2067
+[2026-05-21 16:10:23] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:10:23] 
+[FL] Round 65: Federated Averaging...
+[2026-05-21 16:10:23] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:10:23] [ACCURACY] Global accuracy: 76.0%
+[2026-05-21 16:10:23] [ACCURACY] Change: +0.0%
+[2026-05-21 16:10:23] [FL] Global weights to send: min=-9.0744, max=9.8039, mean=0.1821
+[2026-05-21 16:10:23] [FL] Sending global model...
+[2026-05-21 16:10:23] [FL] Global model sent successfully
+
+[2026-05-21 16:10:43] 
+[CLIENT] Received | samples=30 | node accuracy=80.0%
+[2026-05-21 16:10:43] [CLIENT] Received weights: min=-8.5039, max=9.6063, mean=0.2042
+[2026-05-21 16:10:43] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:10:43] 
+[FL] Round 66: Federated Averaging...
+[2026-05-21 16:10:43] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:10:43] [ACCURACY] Global accuracy: 78.0%
+[2026-05-21 16:10:43] [ACCURACY] Change: +2.0%
+[2026-05-21 16:10:43] [FL] Global weights to send: min=-8.6791, max=9.7056, mean=0.1932
+[2026-05-21 16:10:43] [FL] Sending global model...
+[2026-05-21 16:10:43] [FL] Global model sent successfully
+
+[2026-05-21 16:11:03] 
+[CLIENT] Received | samples=30 | node accuracy=70.0%
+[2026-05-21 16:11:03] [CLIENT] Received weights: min=-8.0315, max=9.2913, mean=0.2239
+[2026-05-21 16:11:03] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:11:03] 
+[FL] Round 67: Federated Averaging...
+[2026-05-21 16:11:03] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:11:03] [ACCURACY] Global accuracy: 80.0%
+[2026-05-21 16:11:03] [ACCURACY] Change: +2.0%
+[2026-05-21 16:11:03] [FL] Global weights to send: min=-8.3540, max=9.4192, mean=0.2085
+[2026-05-21 16:11:03] [FL] Sending global model...
+[2026-05-21 16:11:03] [FL] Global model sent successfully
+
+[2026-05-21 16:11:23] 
+[CLIENT] Received | samples=30 | node accuracy=70.0%
+[2026-05-21 16:11:23] [CLIENT] Received weights: min=-8.1890, max=10.0000, mean=0.1464
+[2026-05-21 16:11:23] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:11:23] 
+[FL] Round 68: Federated Averaging...
+[2026-05-21 16:11:23] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:11:23] [ACCURACY] Global accuracy: 76.0%
+[2026-05-21 16:11:23] [ACCURACY] Change: -4.0%
+[2026-05-21 16:11:23] [FL] Global weights to send: min=-8.1313, max=9.6652, mean=0.1776
+[2026-05-21 16:11:23] [FL] Sending global model...
+[2026-05-21 16:11:23] [FL] Global model sent successfully
+
+[2026-05-21 16:11:43] 
+[CLIENT] Received | samples=30 | node accuracy=70.0%
+[2026-05-21 16:11:43] [CLIENT] Received weights: min=-8.5039, max=10.0000, mean=0.1636
+[2026-05-21 16:11:43] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:11:43] 
+[FL] Round 69: Federated Averaging...
+[2026-05-21 16:11:43] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:11:43] [ACCURACY] Global accuracy: 76.0%
+[2026-05-21 16:11:43] [ACCURACY] Change: +0.0%
+[2026-05-21 16:11:43] [FL] Global weights to send: min=-8.3181, max=9.8325, mean=0.1706
+[2026-05-21 16:11:43] [FL] Sending global model...
+[2026-05-21 16:11:43] [FL] Global model sent successfully
+
+[2026-05-21 16:12:03] 
+[CLIENT] Received | samples=30 | node accuracy=90.0%
+[2026-05-21 16:12:03] [CLIENT] Received weights: min=-9.9213, max=10.0000, mean=0.0886
+[2026-05-21 16:12:03] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:12:03] 
+[FL] Round 70: Federated Averaging...
+[2026-05-21 16:12:03] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:12:03] [ACCURACY] Global accuracy: 72.0%
+[2026-05-21 16:12:03] [ACCURACY] Change: -4.0%
+[2026-05-21 16:12:03] [FL] Global weights to send: min=-9.1208, max=9.9167, mean=0.1295
+[2026-05-21 16:12:03] [FL] Sending global model...
+[2026-05-21 16:12:03] [FL] Global model sent successfully
+
+[2026-05-21 16:12:23] 
+[CLIENT] Received | samples=30 | node accuracy=80.0%
+[2026-05-21 16:12:23] [CLIENT] Received weights: min=-9.7638, max=10.0000, mean=0.1907
+[2026-05-21 16:12:23] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:12:23] 
+[FL] Round 71: Federated Averaging...
+[2026-05-21 16:12:23] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:12:23] [ACCURACY] Global accuracy: 70.0%
+[2026-05-21 16:12:23] [ACCURACY] Change: -2.0%
+[2026-05-21 16:12:23] [FL] Global weights to send: min=-9.4427, max=9.9590, mean=0.1600
+[2026-05-21 16:12:23] [FL] Sending global model...
+[2026-05-21 16:12:23] [FL] Global model sent successfully
+
+[2026-05-21 16:12:43] 
+[CLIENT] Received | samples=30 | node accuracy=70.0%
+[2026-05-21 16:12:43] [CLIENT] Received weights: min=-9.2126, max=9.7638, mean=0.1932
+[2026-05-21 16:12:43] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:12:43] 
+[FL] Round 72: Federated Averaging...
+[2026-05-21 16:12:43] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:12:43] [ACCURACY] Global accuracy: 74.0%
+[2026-05-21 16:12:43] [ACCURACY] Change: +4.0%
+[2026-05-21 16:12:43] [FL] Global weights to send: min=-9.3281, max=9.8617, mean=0.1765
+[2026-05-21 16:12:43] [FL] Sending global model...
+[2026-05-21 16:12:43] [FL] Global model sent successfully
+
+[2026-05-21 16:13:03] 
+[CLIENT] Received | samples=30 | node accuracy=90.0%
+[2026-05-21 16:13:03] [CLIENT] Received weights: min=-9.5276, max=9.5276, mean=0.2018
+[2026-05-21 16:13:03] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:13:03] 
+[FL] Round 73: Federated Averaging...
+[2026-05-21 16:13:03] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:13:03] [ACCURACY] Global accuracy: 78.0%
+[2026-05-21 16:13:03] [ACCURACY] Change: +4.0%
+[2026-05-21 16:13:03] [FL] Global weights to send: min=-9.4281, max=9.6947, mean=0.1893
+[2026-05-21 16:13:03] [FL] Sending global model...
+[2026-05-21 16:13:03] [FL] Global model sent successfully
+
+[2026-05-21 16:13:23] 
+[CLIENT] Received | samples=30 | node accuracy=100.0%
+[2026-05-21 16:13:23] [CLIENT] Received weights: min=-10.0787, max=9.9213, mean=0.2264
+[2026-05-21 16:13:23] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:13:23] 
+[FL] Round 74: Federated Averaging...
+[2026-05-21 16:13:23] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:13:23] [ACCURACY] Global accuracy: 76.0%
+[2026-05-21 16:13:23] [ACCURACY] Change: -2.0%
+[2026-05-21 16:13:23] [FL] Global weights to send: min=-9.5170, max=9.8081, mean=0.2079
+[2026-05-21 16:13:23] [FL] Sending global model...
+[2026-05-21 16:13:23] [FL] Global model sent successfully
+
+[2026-05-21 16:13:43] 
+[CLIENT] Received | samples=30 | node accuracy=100.0%
+[2026-05-21 16:13:43] [CLIENT] Received weights: min=-9.3701, max=10.0000, mean=0.1907
+[2026-05-21 16:13:43] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:13:43] 
+[FL] Round 75: Federated Averaging...
+[2026-05-21 16:13:43] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:13:43] [ACCURACY] Global accuracy: 72.0%
+[2026-05-21 16:13:43] [ACCURACY] Change: -4.0%
+[2026-05-21 16:13:43] [FL] Global weights to send: min=-9.4440, max=9.9051, mean=0.1992
+[2026-05-21 16:13:43] [FL] Sending global model...
+[2026-05-21 16:13:43] [FL] Global model sent successfully
+
+[2026-05-21 16:14:03] 
+[CLIENT] Received | samples=30 | node accuracy=80.0%
+[2026-05-21 16:14:03] [CLIENT] Received weights: min=-9.2126, max=10.0000, mean=0.1575
+[2026-05-21 16:14:03] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:14:03] 
+[FL] Round 76: Federated Averaging...
+[2026-05-21 16:14:03] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:14:03] [ACCURACY] Global accuracy: 76.0%
+[2026-05-21 16:14:03] [ACCURACY] Change: +4.0%
+[2026-05-21 16:14:03] [FL] Global weights to send: min=-9.2885, max=9.9539, mean=0.1784
+[2026-05-21 16:14:03] [FL] Sending global model...
+[2026-05-21 16:14:03] [FL] Global model sent successfully
+
+[2026-05-21 16:14:23] 
+[CLIENT] Received | samples=30 | node accuracy=90.0%
+[2026-05-21 16:14:23] [CLIENT] Received weights: min=-9.5276, max=10.0000, mean=0.1476
+[2026-05-21 16:14:23] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:14:23] 
+[FL] Round 77: Federated Averaging...
+[2026-05-21 16:14:23] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:14:23] [ACCURACY] Global accuracy: 78.0%
+[2026-05-21 16:14:23] [ACCURACY] Change: +2.0%
+[2026-05-21 16:14:23] [FL] Global weights to send: min=-9.4078, max=9.9767, mean=0.1630
+[2026-05-21 16:14:23] [FL] Sending global model...
+[2026-05-21 16:14:23] [FL] Global model sent successfully
+
+[2026-05-21 16:14:43] 
+[CLIENT] Received | samples=30 | node accuracy=60.0%
+[2026-05-21 16:14:43] [CLIENT] Received weights: min=-10.0787, max=10.0000, mean=0.0837
+[2026-05-21 16:14:43] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:14:43] 
+[FL] Round 78: Federated Averaging...
+[2026-05-21 16:14:43] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:14:43] [ACCURACY] Global accuracy: 72.0%
+[2026-05-21 16:14:43] [ACCURACY] Change: -6.0%
+[2026-05-21 16:14:43] [FL] Global weights to send: min=-9.7434, max=9.9880, mean=0.1234
+[2026-05-21 16:14:43] [FL] Sending global model...
+[2026-05-21 16:14:43] [FL] Global model sent successfully
+
+[2026-05-21 16:15:03] 
+[CLIENT] Received | samples=30 | node accuracy=80.0%
+[2026-05-21 16:15:03] [CLIENT] Received weights: min=-10.0787, max=10.0000, mean=0.0714
+[2026-05-21 16:15:03] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:15:03] 
+[FL] Round 79: Federated Averaging...
+[2026-05-21 16:15:03] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:15:03] [ACCURACY] Global accuracy: 68.0%
+[2026-05-21 16:15:03] [ACCURACY] Change: -4.0%
+[2026-05-21 16:15:03] [FL] Global weights to send: min=-9.9109, max=9.9925, mean=0.0973
+[2026-05-21 16:15:03] [FL] Sending global model...
+[2026-05-21 16:15:03] [FL] Global model sent successfully
+
+[2026-05-21 16:15:23] 
+[CLIENT] Received | samples=30 | node accuracy=90.0%
+[2026-05-21 16:15:23] [CLIENT] Received weights: min=-10.0787, max=10.0000, mean=0.1046
+[2026-05-21 16:15:23] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:15:23] 
+[FL] Round 80: Federated Averaging...
+[2026-05-21 16:15:23] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:15:23] [ACCURACY] Global accuracy: 62.0%
+[2026-05-21 16:15:23] [ACCURACY] Change: -6.0%
+[2026-05-21 16:15:23] [FL] Global weights to send: min=-9.9943, max=9.9956, mean=0.1011
+[2026-05-21 16:15:23] [FL] Sending global model...
+[2026-05-21 16:15:23] [FL] Global model sent successfully
+
+[2026-05-21 16:15:43] 
+[CLIENT] Received | samples=30 | node accuracy=50.0%
+[2026-05-21 16:15:43] [CLIENT] Received weights: min=-10.0787, max=9.4488, mean=0.1316
+[2026-05-21 16:15:43] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:15:43] 
+[FL] Round 81: Federated Averaging...
+[2026-05-21 16:15:43] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:15:43] [ACCURACY] Global accuracy: 64.0%
+[2026-05-21 16:15:43] [ACCURACY] Change: +2.0%
+[2026-05-21 16:15:43] [FL] Global weights to send: min=-10.0361, max=9.7218, mean=0.1164
+[2026-05-21 16:15:43] [FL] Sending global model...
+[2026-05-21 16:15:43] [FL] Global model sent successfully
+
+[2026-05-21 16:16:03] 
+[CLIENT] Received | samples=30 | node accuracy=80.0%
+[2026-05-21 16:16:03] [CLIENT] Received weights: min=-10.0787, max=9.7638, mean=0.1021
+[2026-05-21 16:16:03] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:16:03] 
+[FL] Round 82: Federated Averaging...
+[2026-05-21 16:16:03] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:16:03] [ACCURACY] Global accuracy: 66.0%
+[2026-05-21 16:16:03] [ACCURACY] Change: +2.0%
+[2026-05-21 16:16:03] [FL] Global weights to send: min=-10.0567, max=9.7432, mean=0.1094
+[2026-05-21 16:16:03] [FL] Sending global model...
+[2026-05-21 16:16:03] [FL] Global model sent successfully
+
+[2026-05-21 16:16:23] 
+[CLIENT] Received | samples=30 | node accuracy=60.0%
+[2026-05-21 16:16:23] [CLIENT] Received weights: min=-9.3701, max=9.5276, mean=0.1710
+[2026-05-21 16:16:23] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:16:23] 
+[FL] Round 83: Federated Averaging...
+[2026-05-21 16:16:23] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:16:23] [ACCURACY] Global accuracy: 72.0%
+[2026-05-21 16:16:23] [ACCURACY] Change: +6.0%
+[2026-05-21 16:16:23] [FL] Global weights to send: min=-9.7155, max=9.4660, mean=0.1400
+[2026-05-21 16:16:23] [FL] Sending global model...
+[2026-05-21 16:16:23] [FL] Global model sent successfully
+
+[2026-05-21 16:16:43] 
+[CLIENT] Received | samples=30 | node accuracy=70.0%
+[2026-05-21 16:16:43] [CLIENT] Received weights: min=-9.3701, max=9.5276, mean=0.1944
+[2026-05-21 16:16:43] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:16:43] 
+[FL] Round 84: Federated Averaging...
+[2026-05-21 16:16:43] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:16:43] [ACCURACY] Global accuracy: 80.0%
+[2026-05-21 16:16:43] [ACCURACY] Change: +8.0%
+[2026-05-21 16:16:43] [FL] Global weights to send: min=-9.5424, max=9.4966, mean=0.1672
+[2026-05-21 16:16:43] [FL] Sending global model...
+[2026-05-21 16:16:43] [FL] Global model sent successfully
+
+[2026-05-21 16:17:03] 
+[CLIENT] Received | samples=30 | node accuracy=80.0%
+[2026-05-21 16:17:03] [CLIENT] Received weights: min=-9.9213, max=9.7638, mean=0.2399
+[2026-05-21 16:17:03] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:17:03] 
+[FL] Round 85: Federated Averaging...
+[2026-05-21 16:17:03] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:17:03] [ACCURACY] Global accuracy: 80.0%
+[2026-05-21 16:17:03] [ACCURACY] Change: +0.0%
+[2026-05-21 16:17:03] [FL] Global weights to send: min=-9.7335, max=9.6289, mean=0.2036
+[2026-05-21 16:17:03] [FL] Sending global model...
+[2026-05-21 16:17:03] [FL] Global model sent successfully
+
+[2026-05-21 16:17:23] 
+[CLIENT] Received | samples=30 | node accuracy=90.0%
+[2026-05-21 16:17:23] [CLIENT] Received weights: min=-10.0787, max=9.6850, mean=0.2916
+[2026-05-21 16:17:23] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:17:23] 
+[FL] Round 86: Federated Averaging...
+[2026-05-21 16:17:23] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:17:23] [ACCURACY] Global accuracy: 82.0%
+[2026-05-21 16:17:23] [ACCURACY] Change: +2.0%
+[2026-05-21 16:17:23] [FL] Global weights to send: min=-9.9062, max=9.6576, mean=0.2476
+[2026-05-21 16:17:23] [FL] Sending global model...
+[2026-05-21 16:17:23] [FL] Global model sent successfully
+
+[2026-05-21 16:17:43] 
+[CLIENT] Received | samples=30 | node accuracy=80.0%
+[2026-05-21 16:17:43] [CLIENT] Received weights: min=-10.0787, max=9.6850, mean=0.2953
+[2026-05-21 16:17:43] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:17:43] 
+[FL] Round 87: Federated Averaging...
+[2026-05-21 16:17:43] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:17:43] [ACCURACY] Global accuracy: 76.0%
+[2026-05-21 16:17:43] [ACCURACY] Change: -6.0%
+[2026-05-21 16:17:43] [FL] Global weights to send: min=-9.9929, max=9.6707, mean=0.2714
+[2026-05-21 16:17:43] [FL] Sending global model...
+[2026-05-21 16:17:43] [FL] Global model sent successfully
+
+[2026-05-21 16:18:03] 
+[CLIENT] Received | samples=30 | node accuracy=80.0%
+[2026-05-21 16:18:03] [CLIENT] Received weights: min=-10.0787, max=10.0000, mean=0.3100
+[2026-05-21 16:18:03] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:18:03] 
+[FL] Round 88: Federated Averaging...
+[2026-05-21 16:18:03] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:18:03] [ACCURACY] Global accuracy: 72.0%
+[2026-05-21 16:18:03] [ACCURACY] Change: -4.0%
+[2026-05-21 16:18:03] [FL] Global weights to send: min=-9.8531, max=9.8356, mean=0.2908
+[2026-05-21 16:18:03] [FL] Sending global model...
+[2026-05-21 16:18:03] [FL] Global model sent successfully
+
+[2026-05-21 16:18:23] 
+[CLIENT] Received | samples=30 | node accuracy=80.0%
+[2026-05-21 16:18:23] [CLIENT] Received weights: min=-9.3701, max=10.0000, mean=0.2670
+[2026-05-21 16:18:23] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:18:23] 
+[FL] Round 89: Federated Averaging...
+[2026-05-21 16:18:23] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:18:23] [ACCURACY] Global accuracy: 70.0%
+[2026-05-21 16:18:23] [ACCURACY] Change: -2.0%
+[2026-05-21 16:18:23] [FL] Global weights to send: min=-9.6121, max=9.9185, mean=0.2789
+[2026-05-21 16:18:23] [FL] Sending global model...
+[2026-05-21 16:18:23] [FL] Global model sent successfully
+
+[2026-05-21 16:18:43] 
+[CLIENT] Received | samples=30 | node accuracy=70.0%
+[2026-05-21 16:18:43] [CLIENT] Received weights: min=-9.7638, max=10.0000, mean=0.2657
+[2026-05-21 16:18:43] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:18:43] 
+[FL] Round 90: Federated Averaging...
+[2026-05-21 16:18:43] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:18:43] [ACCURACY] Global accuracy: 68.0%
+[2026-05-21 16:18:43] [ACCURACY] Change: -2.0%
+[2026-05-21 16:18:43] [FL] Global weights to send: min=-9.6872, max=9.9592, mean=0.2725
+[2026-05-21 16:18:43] [FL] Sending global model...
+[2026-05-21 16:18:43] [FL] Global model sent successfully
+
+[2026-05-21 16:19:03] 
+[CLIENT] Received | samples=30 | node accuracy=60.0%
+[2026-05-21 16:19:03] [CLIENT] Received weights: min=-9.6063, max=10.0000, mean=0.2424
+[2026-05-21 16:19:03] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:19:03] 
+[FL] Round 91: Federated Averaging...
+[2026-05-21 16:19:03] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:19:03] [ACCURACY] Global accuracy: 72.0%
+[2026-05-21 16:19:03] [ACCURACY] Change: +4.0%
+[2026-05-21 16:19:03] [FL] Global weights to send: min=-9.6469, max=9.9791, mean=0.2574
+[2026-05-21 16:19:03] [FL] Sending global model...
+[2026-05-21 16:19:03] [FL] Global model sent successfully
+
+[2026-05-21 16:19:23] 
+[CLIENT] Received | samples=30 | node accuracy=90.0%
+[2026-05-21 16:19:23] [CLIENT] Received weights: min=-9.6063, max=10.0000, mean=0.2424
+[2026-05-21 16:19:23] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:19:23] 
+[FL] Round 92: Federated Averaging...
+[2026-05-21 16:19:23] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:19:23] [ACCURACY] Global accuracy: 76.0%
+[2026-05-21 16:19:23] [ACCURACY] Change: +4.0%
+[2026-05-21 16:19:23] [FL] Global weights to send: min=-9.6275, max=9.9893, mean=0.2500
+[2026-05-21 16:19:23] [FL] Sending global model...
+[2026-05-21 16:19:23] [FL] Global model sent successfully
+
+[2026-05-21 16:19:43] 
+[CLIENT] Received | samples=30 | node accuracy=50.0%
+[2026-05-21 16:19:43] [CLIENT] Received weights: min=-9.8425, max=10.0000, mean=0.2411
+[2026-05-21 16:19:43] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:19:43] 
+[FL] Round 93: Federated Averaging...
+[2026-05-21 16:19:43] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:19:43] [ACCURACY] Global accuracy: 74.0%
+[2026-05-21 16:19:43] [ACCURACY] Change: -2.0%
+[2026-05-21 16:19:43] [FL] Global weights to send: min=-9.7356, max=9.8598, mean=0.2457
+[2026-05-21 16:19:43] [FL] Sending global model...
+[2026-05-21 16:19:43] [FL] Global model sent successfully
+
+[2026-05-21 16:20:03] 
+[CLIENT] Received | samples=30 | node accuracy=80.0%
+[2026-05-21 16:20:03] [CLIENT] Received weights: min=-9.2913, max=10.0000, mean=0.2153
+[2026-05-21 16:20:03] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:20:03] 
+[FL] Round 94: Federated Averaging...
+[2026-05-21 16:20:03] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:20:03] [ACCURACY] Global accuracy: 74.0%
+[2026-05-21 16:20:03] [ACCURACY] Change: +0.0%
+[2026-05-21 16:20:03] [FL] Global weights to send: min=-9.5130, max=9.9301, mean=0.2305
+[2026-05-21 16:20:03] [FL] Sending global model...
+[2026-05-21 16:20:03] [FL] Global model sent successfully
+
+[2026-05-21 16:20:23] 
+[CLIENT] Received | samples=30 | node accuracy=90.0%
+[2026-05-21 16:20:23] [CLIENT] Received weights: min=-9.3701, max=10.0000, mean=0.1587
+[2026-05-21 16:20:23] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:20:23] 
+[FL] Round 95: Federated Averaging...
+[2026-05-21 16:20:23] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:20:23] [ACCURACY] Global accuracy: 74.0%
+[2026-05-21 16:20:23] [ACCURACY] Change: +0.0%
+[2026-05-21 16:20:23] [FL] Global weights to send: min=-9.4418, max=9.9650, mean=0.1945
+[2026-05-21 16:20:23] [FL] Sending global model...
+[2026-05-21 16:20:23] [FL] Global model sent successfully
+
+[2026-05-21 16:20:43] 
+[CLIENT] Received | samples=30 | node accuracy=80.0%
+[2026-05-21 16:20:43] [CLIENT] Received weights: min=-10.0787, max=10.0000, mean=0.1095
+[2026-05-21 16:20:43] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:20:43] 
+[FL] Round 96: Federated Averaging...
+[2026-05-21 16:20:43] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:20:43] [ACCURACY] Global accuracy: 72.0%
+[2026-05-21 16:20:43] [ACCURACY] Change: -2.0%
+[2026-05-21 16:20:43] [FL] Global weights to send: min=-9.5808, max=9.9825, mean=0.1520
+[2026-05-21 16:20:43] [FL] Sending global model...
+[2026-05-21 16:20:43] [FL] Global model sent successfully
+
+[2026-05-21 16:21:03] 
+[CLIENT] Received | samples=30 | node accuracy=100.0%
+[2026-05-21 16:21:03] [CLIENT] Received weights: min=-9.8425, max=10.0000, mean=0.0947
+[2026-05-21 16:21:03] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:21:03] 
+[FL] Round 97: Federated Averaging...
+[2026-05-21 16:21:03] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:21:03] [ACCURACY] Global accuracy: 76.0%
+[2026-05-21 16:21:03] [ACCURACY] Change: +4.0%
+[2026-05-21 16:21:03] [FL] Global weights to send: min=-9.7122, max=9.9911, mean=0.1233
+[2026-05-21 16:21:03] [FL] Sending global model...
+[2026-05-21 16:21:03] [FL] Global model sent successfully
+
+[2026-05-21 16:21:23] 
+[CLIENT] Received | samples=30 | node accuracy=80.0%
+[2026-05-21 16:21:23] [CLIENT] Received weights: min=-10.0787, max=10.0000, mean=0.1280
+[2026-05-21 16:21:23] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:21:23] 
+[FL] Round 98: Federated Averaging...
+[2026-05-21 16:21:23] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:21:23] [ACCURACY] Global accuracy: 82.0%
+[2026-05-21 16:21:23] [ACCURACY] Change: +6.0%
+[2026-05-21 16:21:23] [FL] Global weights to send: min=-9.8969, max=9.9954, mean=0.1256
+[2026-05-21 16:21:23] [FL] Sending global model...
+[2026-05-21 16:21:23] [FL] Global model sent successfully
+
+[2026-05-21 16:21:43] 
+[CLIENT] Received | samples=30 | node accuracy=70.0%
+[2026-05-21 16:21:43] [CLIENT] Received weights: min=-10.0787, max=10.0000, mean=0.1550
+[2026-05-21 16:21:43] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:21:43] 
+[FL] Round 99: Federated Averaging...
+[2026-05-21 16:21:43] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:21:43] [ACCURACY] Global accuracy: 80.0%
+[2026-05-21 16:21:43] [ACCURACY] Change: -2.0%
+[2026-05-21 16:21:43] [FL] Global weights to send: min=-9.8236, max=9.9987, mean=0.1404
+[2026-05-21 16:21:43] [FL] Sending global model...
+[2026-05-21 16:21:43] [FL] Global model sent successfully
+
+[2026-05-21 16:22:03] 
+[CLIENT] Received | samples=30 | node accuracy=80.0%
+[2026-05-21 16:22:03] [CLIENT] Received weights: min=-9.9213, max=10.0000, mean=0.1316
+[2026-05-21 16:22:03] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:22:03] 
+[FL] Round 100: Federated Averaging...
+[2026-05-21 16:22:03] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:22:03] [ACCURACY] Global accuracy: 84.0%
+[2026-05-21 16:22:03] [ACCURACY] Change: +4.0%
+[2026-05-21 16:22:03] [FL] Global weights to send: min=-9.8725, max=9.9997, mean=0.1360
+[2026-05-21 16:22:03] [FL] Sending global model...
+[2026-05-21 16:22:03] [FL] Global model sent successfully
+
+[2026-05-21 16:22:23] 
+[CLIENT] Received | samples=30 | node accuracy=100.0%
+[2026-05-21 16:22:23] [CLIENT] Received weights: min=-9.9213, max=10.0000, mean=0.1230
+[2026-05-21 16:22:23] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:22:23] 
+[FL] Round 101: Federated Averaging...
+[2026-05-21 16:22:23] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:22:23] [ACCURACY] Global accuracy: 80.0%
+[2026-05-21 16:22:23] [ACCURACY] Change: -4.0%
+[2026-05-21 16:22:23] [FL] Global weights to send: min=-9.8970, max=9.9989, mean=0.1295
+[2026-05-21 16:22:23] [FL] Sending global model...
+[2026-05-21 16:22:23] [FL] Global model sent successfully
+
+[2026-05-21 16:22:43] 
+[CLIENT] Received | samples=30 | node accuracy=50.0%
+[2026-05-21 16:22:43] [CLIENT] Received weights: min=-9.8425, max=10.0000, mean=0.1120
+[2026-05-21 16:22:43] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:22:43] 
+[FL] Round 102: Federated Averaging...
+[2026-05-21 16:22:43] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:22:43] [ACCURACY] Global accuracy: 78.0%
+[2026-05-21 16:22:43] [ACCURACY] Change: -2.0%
+[2026-05-21 16:22:43] [FL] Global weights to send: min=-9.8698, max=9.9991, mean=0.1207
+[2026-05-21 16:22:43] [FL] Sending global model...
+[2026-05-21 16:22:43] [FL] Global model sent successfully
+
+[2026-05-21 16:23:03] 
+[CLIENT] Received | samples=30 | node accuracy=60.0%
+[2026-05-21 16:23:03] [CLIENT] Received weights: min=-10.0000, max=10.0000, mean=0.0787
+[2026-05-21 16:23:03] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:23:03] 
+[FL] Round 103: Federated Averaging...
+[2026-05-21 16:23:03] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:23:03] [ACCURACY] Global accuracy: 70.0%
+[2026-05-21 16:23:03] [ACCURACY] Change: -8.0%
+[2026-05-21 16:23:03] [FL] Global weights to send: min=-9.9351, max=9.9984, mean=0.0998
+[2026-05-21 16:23:03] [FL] Sending global model...
+[2026-05-21 16:23:03] [FL] Global model sent successfully
+
+[2026-05-21 16:23:23] 
+[CLIENT] Received | samples=30 | node accuracy=80.0%
+[2026-05-21 16:23:23] [CLIENT] Received weights: min=-8.9764, max=9.5276, mean=0.0874
+[2026-05-21 16:23:23] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:23:23] 
+[FL] Round 104: Federated Averaging...
+[2026-05-21 16:23:23] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:23:23] [ACCURACY] Global accuracy: 74.0%
+[2026-05-21 16:23:23] [ACCURACY] Change: +4.0%
+[2026-05-21 16:23:23] [FL] Global weights to send: min=-9.4549, max=9.7638, mean=0.0937
+[2026-05-21 16:23:23] [FL] Sending global model...
+[2026-05-21 16:23:23] [FL] Global model sent successfully
+
+[2026-05-21 16:23:43] 
+[CLIENT] Received | samples=30 | node accuracy=90.0%
+[2026-05-21 16:23:43] [CLIENT] Received weights: min=-9.1339, max=10.0000, mean=0.0664
+[2026-05-21 16:23:43] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:23:43] 
+[FL] Round 105: Federated Averaging...
+[2026-05-21 16:23:43] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:23:43] [ACCURACY] Global accuracy: 70.0%
+[2026-05-21 16:23:43] [ACCURACY] Change: -4.0%
+[2026-05-21 16:23:43] [FL] Global weights to send: min=-9.2162, max=9.8816, mean=0.0801
+[2026-05-21 16:23:43] [FL] Sending global model...
+[2026-05-21 16:23:43] [FL] Global model sent successfully
+
+[2026-05-21 16:24:03] 
+[CLIENT] Received | samples=30 | node accuracy=80.0%
+[2026-05-21 16:24:03] [CLIENT] Received weights: min=-9.1339, max=9.9213, mean=0.1292
+[2026-05-21 16:24:03] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:24:03] 
+[FL] Round 106: Federated Averaging...
+[2026-05-21 16:24:03] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:24:03] [ACCURACY] Global accuracy: 72.0%
+[2026-05-21 16:24:03] [ACCURACY] Change: +2.0%
+[2026-05-21 16:24:03] [FL] Global weights to send: min=-9.0857, max=9.9013, mean=0.1043
+[2026-05-21 16:24:03] [FL] Sending global model...
+[2026-05-21 16:24:03] [FL] Global model sent successfully
+
+[2026-05-21 16:24:23] 
+[CLIENT] Received | samples=30 | node accuracy=80.0%
+[2026-05-21 16:24:23] [CLIENT] Received weights: min=-9.2126, max=10.0000, mean=0.1132
+[2026-05-21 16:24:23] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:24:23] 
+[FL] Round 107: Federated Averaging...
+[2026-05-21 16:24:23] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:24:23] [ACCURACY] Global accuracy: 72.0%
+[2026-05-21 16:24:23] [ACCURACY] Change: +0.0%
+[2026-05-21 16:24:23] [FL] Global weights to send: min=-9.0953, max=9.9504, mean=0.1086
+[2026-05-21 16:24:23] [FL] Sending global model...
+[2026-05-21 16:24:23] [FL] Global model sent successfully
+
+[2026-05-21 16:24:43] 
+[CLIENT] Received | samples=30 | node accuracy=60.0%
+[2026-05-21 16:24:43] [CLIENT] Received weights: min=-10.0787, max=10.0000, mean=0.1907
+[2026-05-21 16:24:43] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:24:43] 
+[FL] Round 108: Federated Averaging...
+[2026-05-21 16:24:43] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:24:43] [ACCURACY] Global accuracy: 80.0%
+[2026-05-21 16:24:43] [ACCURACY] Change: +8.0%
+[2026-05-21 16:24:43] [FL] Global weights to send: min=-9.4110, max=9.9753, mean=0.1496
+[2026-05-21 16:24:43] [FL] Sending global model...
+[2026-05-21 16:24:43] [FL] Global model sent successfully
+
+[2026-05-21 16:25:03] 
+[CLIENT] Received | samples=30 | node accuracy=80.0%
+[2026-05-21 16:25:03] [CLIENT] Received weights: min=-10.0787, max=10.0000, mean=0.1464
+[2026-05-21 16:25:03] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:25:03] 
+[FL] Round 109: Federated Averaging...
+[2026-05-21 16:25:03] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:25:03] [ACCURACY] Global accuracy: 76.0%
+[2026-05-21 16:25:03] [ACCURACY] Change: -4.0%
+[2026-05-21 16:25:03] [FL] Global weights to send: min=-9.7451, max=9.9877, mean=0.1481
+[2026-05-21 16:25:03] [FL] Sending global model...
+[2026-05-21 16:25:03] [FL] Global model sent successfully
+
+[2026-05-21 16:25:23] 
+[CLIENT] Received | samples=30 | node accuracy=100.0%
+[2026-05-21 16:25:23] [CLIENT] Received weights: min=-10.0787, max=9.8425, mean=0.1280
+[2026-05-21 16:25:23] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:25:23] 
+[FL] Round 110: Federated Averaging...
+[2026-05-21 16:25:23] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:25:23] [ACCURACY] Global accuracy: 76.0%
+[2026-05-21 16:25:23] [ACCURACY] Change: +0.0%
+[2026-05-21 16:25:23] [FL] Global weights to send: min=-9.9111, max=9.9148, mean=0.1379
+[2026-05-21 16:25:23] [FL] Sending global model...
+[2026-05-21 16:25:23] [FL] Global model sent successfully
+
+[2026-05-21 16:25:43] 
+[CLIENT] Received | samples=30 | node accuracy=70.0%
+[2026-05-21 16:25:43] [CLIENT] Received weights: min=-10.0787, max=9.7638, mean=0.1021
+[2026-05-21 16:25:43] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:25:43] 
+[FL] Round 111: Federated Averaging...
+[2026-05-21 16:25:43] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:25:43] [ACCURACY] Global accuracy: 74.0%
+[2026-05-21 16:25:43] [ACCURACY] Change: -2.0%
+[2026-05-21 16:25:43] [FL] Global weights to send: min=-9.9951, max=9.8397, mean=0.1200
+[2026-05-21 16:25:43] [FL] Sending global model...
+[2026-05-21 16:25:43] [FL] Global model sent successfully
+
+[2026-05-21 16:26:03] 
+[CLIENT] Received | samples=30 | node accuracy=90.0%
+[2026-05-21 16:26:03] [CLIENT] Received weights: min=-10.0787, max=10.0000, mean=0.0664
+[2026-05-21 16:26:03] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:26:03] 
+[FL] Round 112: Federated Averaging...
+[2026-05-21 16:26:03] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:26:03] [ACCURACY] Global accuracy: 76.0%
+[2026-05-21 16:26:03] [ACCURACY] Change: +2.0%
+[2026-05-21 16:26:03] [FL] Global weights to send: min=-10.0372, max=9.9198, mean=0.0934
+[2026-05-21 16:26:03] [FL] Sending global model...
+[2026-05-21 16:26:03] [FL] Global model sent successfully
+
+[2026-05-21 16:26:23] 
+[CLIENT] Received | samples=30 | node accuracy=100.0%
+[2026-05-21 16:26:23] [CLIENT] Received weights: min=-10.0787, max=10.0000, mean=0.0947
+[2026-05-21 16:26:23] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:26:23] 
+[FL] Round 113: Federated Averaging...
+[2026-05-21 16:26:23] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:26:23] [ACCURACY] Global accuracy: 76.0%
+[2026-05-21 16:26:23] [ACCURACY] Change: +0.0%
+[2026-05-21 16:26:23] [FL] Global weights to send: min=-10.0583, max=9.9601, mean=0.0941
+[2026-05-21 16:26:23] [FL] Sending global model...
+[2026-05-21 16:26:23] [FL] Global model sent successfully
+
+[2026-05-21 16:26:43] 
+[CLIENT] Received | samples=30 | node accuracy=90.0%
+[2026-05-21 16:26:43] [CLIENT] Received weights: min=-10.0787, max=10.0000, mean=0.0750
+[2026-05-21 16:26:43] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:26:43] 
+[FL] Round 114: Federated Averaging...
+[2026-05-21 16:26:43] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:26:43] [ACCURACY] Global accuracy: 78.0%
+[2026-05-21 16:26:43] [ACCURACY] Change: +2.0%
+[2026-05-21 16:26:43] [FL] Global weights to send: min=-10.0689, max=9.9801, mean=0.0845
+[2026-05-21 16:26:43] [FL] Sending global model...
+[2026-05-21 16:26:43] [FL] Global model sent successfully
+
+[2026-05-21 16:27:03] 
+[CLIENT] Received | samples=30 | node accuracy=90.0%
+[2026-05-21 16:27:03] [CLIENT] Received weights: min=-10.0787, max=10.0000, mean=0.0418
+[2026-05-21 16:27:03] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:27:03] 
+[FL] Round 115: Federated Averaging...
+[2026-05-21 16:27:03] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:27:03] [ACCURACY] Global accuracy: 80.0%
+[2026-05-21 16:27:03] [ACCURACY] Change: +2.0%
+[2026-05-21 16:27:03] [FL] Global weights to send: min=-10.0732, max=9.9684, mean=0.0632
+[2026-05-21 16:27:03] [FL] Sending global model...
+[2026-05-21 16:27:03] [FL] Global model sent successfully
+
+[2026-05-21 16:27:23] 
+[CLIENT] Received | samples=30 | node accuracy=80.0%
+[2026-05-21 16:27:23] [CLIENT] Received weights: min=-10.0787, max=10.0000, mean=0.0492
+[2026-05-21 16:27:23] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:27:23] 
+[FL] Round 116: Federated Averaging...
+[2026-05-21 16:27:23] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:27:23] [ACCURACY] Global accuracy: 80.0%
+[2026-05-21 16:27:23] [ACCURACY] Change: +0.0%
+[2026-05-21 16:27:23] [FL] Global weights to send: min=-10.0770, max=9.9832, mean=0.0562
+[2026-05-21 16:27:23] [FL] Sending global model...
+[2026-05-21 16:27:23] [FL] Global model sent successfully
+
+[2026-05-21 16:27:43] 
+[CLIENT] Received | samples=30 | node accuracy=90.0%
+[2026-05-21 16:27:43] [CLIENT] Received weights: min=-10.0787, max=10.0000, mean=0.0701
+[2026-05-21 16:27:43] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:27:43] 
+[FL] Round 117: Federated Averaging...
+[2026-05-21 16:27:43] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:27:43] [ACCURACY] Global accuracy: 78.0%
+[2026-05-21 16:27:43] [ACCURACY] Change: -2.0%
+[2026-05-21 16:27:43] [FL] Global weights to send: min=-10.0790, max=9.9907, mean=0.0631
+[2026-05-21 16:27:43] [FL] Sending global model...
+[2026-05-21 16:27:43] [FL] Global model sent successfully
+
+[2026-05-21 16:28:03] 
+[CLIENT] Received | samples=30 | node accuracy=80.0%
+[2026-05-21 16:28:03] [CLIENT] Received weights: min=-10.0787, max=10.0000, mean=0.1501
+[2026-05-21 16:28:03] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:28:03] 
+[FL] Round 118: Federated Averaging...
+[2026-05-21 16:28:03] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:28:03] [ACCURACY] Global accuracy: 78.0%
+[2026-05-21 16:28:03] [ACCURACY] Change: +0.0%
+[2026-05-21 16:28:03] [FL] Global weights to send: min=-10.0770, max=9.9957, mean=0.1067
+[2026-05-21 16:28:03] [FL] Sending global model...
+[2026-05-21 16:28:03] [FL] Global model sent successfully
+
+[2026-05-21 16:28:23] 
+[CLIENT] Received | samples=30 | node accuracy=80.0%
+[2026-05-21 16:28:23] [CLIENT] Received weights: min=-10.0787, max=10.0000, mean=0.1353
+[2026-05-21 16:28:23] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:28:23] 
+[FL] Round 119: Federated Averaging...
+[2026-05-21 16:28:23] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:28:23] [ACCURACY] Global accuracy: 72.0%
+[2026-05-21 16:28:23] [ACCURACY] Change: -6.0%
+[2026-05-21 16:28:23] [FL] Global weights to send: min=-10.0772, max=9.9977, mean=0.1209
+[2026-05-21 16:28:23] [FL] Sending global model...
+[2026-05-21 16:28:23] [FL] Global model sent successfully
+
+[2026-05-21 16:28:43] 
+[CLIENT] Received | samples=30 | node accuracy=60.0%
+[2026-05-21 16:28:43] [CLIENT] Received weights: min=-10.0787, max=10.0000, mean=0.1722
+[2026-05-21 16:28:43] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:28:43] 
+[FL] Round 120: Federated Averaging...
+[2026-05-21 16:28:43] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:28:43] [ACCURACY] Global accuracy: 74.0%
+[2026-05-21 16:28:43] [ACCURACY] Change: +2.0%
+[2026-05-21 16:28:43] [FL] Global weights to send: min=-10.0185, max=9.9982, mean=0.1466
+[2026-05-21 16:28:43] [FL] Sending global model...
+[2026-05-21 16:28:43] [FL] Global model sent successfully
+
+[2026-05-21 16:29:03] 
+[CLIENT] Received | samples=30 | node accuracy=70.0%
+[2026-05-21 16:29:03] [CLIENT] Received weights: min=-10.0787, max=10.0000, mean=0.1562
+[2026-05-21 16:29:03] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:29:03] 
+[FL] Round 121: Federated Averaging...
+[2026-05-21 16:29:03] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:29:03] [ACCURACY] Global accuracy: 72.0%
+[2026-05-21 16:29:03] [ACCURACY] Change: -2.0%
+[2026-05-21 16:29:03] [FL] Global weights to send: min=-9.9146, max=9.9990, mean=0.1514
+[2026-05-21 16:29:03] [FL] Sending global model...
+[2026-05-21 16:29:03] [FL] Global model sent successfully
+
+[2026-05-21 16:29:23] 
+[CLIENT] Received | samples=30 | node accuracy=80.0%
+[2026-05-21 16:29:23] [CLIENT] Received weights: min=-10.0787, max=10.0000, mean=0.1809
+[2026-05-21 16:29:23] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:29:23] 
+[FL] Round 122: Federated Averaging...
+[2026-05-21 16:29:23] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:29:23] [ACCURACY] Global accuracy: 76.0%
+[2026-05-21 16:29:23] [ACCURACY] Change: +4.0%
+[2026-05-21 16:29:23] [FL] Global weights to send: min=-9.9962, max=9.9992, mean=0.1660
+[2026-05-21 16:29:23] [FL] Sending global model...
+[2026-05-21 16:29:23] [FL] Global model sent successfully
+
+[2026-05-21 16:29:43] 
+[CLIENT] Received | samples=30 | node accuracy=90.0%
+[2026-05-21 16:29:43] [CLIENT] Received weights: min=-10.0787, max=10.0000, mean=0.1759
+[2026-05-21 16:29:43] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:29:43] 
+[FL] Round 123: Federated Averaging...
+[2026-05-21 16:29:43] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:29:43] [ACCURACY] Global accuracy: 80.0%
+[2026-05-21 16:29:43] [ACCURACY] Change: +4.0%
+[2026-05-21 16:29:43] [FL] Global weights to send: min=-10.0368, max=10.0006, mean=0.1711
+[2026-05-21 16:29:43] [FL] Sending global model...
+[2026-05-21 16:29:43] [FL] Global model sent successfully
+
+[2026-05-21 16:30:03] 
+[CLIENT] Received | samples=30 | node accuracy=60.0%
+[2026-05-21 16:30:03] [CLIENT] Received weights: min=-10.0787, max=9.9213, mean=0.1772
+[2026-05-21 16:30:03] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:30:03] 
+[FL] Round 124: Federated Averaging...
+[2026-05-21 16:30:03] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:30:03] [ACCURACY] Global accuracy: 78.0%
+[2026-05-21 16:30:03] [ACCURACY] Change: -2.0%
+[2026-05-21 16:30:03] [FL] Global weights to send: min=-10.0587, max=9.8602, mean=0.1742
+[2026-05-21 16:30:03] [FL] Sending global model...
+[2026-05-21 16:30:03] [FL] Global model sent successfully
+
+[2026-05-21 16:30:23] 
+[CLIENT] Received | samples=30 | node accuracy=100.0%
+[2026-05-21 16:30:23] [CLIENT] Received weights: min=-10.0787, max=10.0000, mean=0.1390
+[2026-05-21 16:30:23] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:30:23] 
+[FL] Round 125: Federated Averaging...
+[2026-05-21 16:30:23] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:30:23] [ACCURACY] Global accuracy: 82.0%
+[2026-05-21 16:30:23] [ACCURACY] Change: +4.0%
+[2026-05-21 16:30:23] [FL] Global weights to send: min=-10.0690, max=9.8617, mean=0.1566
+[2026-05-21 16:30:23] [FL] Sending global model...
+[2026-05-21 16:30:23] [FL] Global model sent successfully
+
+[2026-05-21 16:30:43] 
+[CLIENT] Received | samples=30 | node accuracy=70.0%
+[2026-05-21 16:30:43] [CLIENT] Received weights: min=-10.0787, max=10.0000, mean=0.0874
+[2026-05-21 16:30:43] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:30:43] 
+[FL] Round 126: Federated Averaging...
+[2026-05-21 16:30:43] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:30:43] [ACCURACY] Global accuracy: 80.0%
+[2026-05-21 16:30:43] [ACCURACY] Change: -2.0%
+[2026-05-21 16:30:43] [FL] Global weights to send: min=-10.0307, max=9.9299, mean=0.1220
+[2026-05-21 16:30:43] [FL] Sending global model...
+[2026-05-21 16:30:43] [FL] Global model sent successfully
+
+[2026-05-21 16:31:03] 
+[CLIENT] Received | samples=30 | node accuracy=90.0%
+[2026-05-21 16:31:03] [CLIENT] Received weights: min=-9.9213, max=10.0000, mean=0.1033
+[2026-05-21 16:31:03] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:31:03] 
+[FL] Round 127: Federated Averaging...
+[2026-05-21 16:31:03] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:31:03] [ACCURACY] Global accuracy: 78.0%
+[2026-05-21 16:31:03] [ACCURACY] Change: -2.0%
+[2026-05-21 16:31:03] [FL] Global weights to send: min=-9.9755, max=9.9659, mean=0.1128
+[2026-05-21 16:31:03] [FL] Sending global model...
+[2026-05-21 16:31:03] [FL] Global model sent successfully
+
+[2026-05-21 16:31:23] 
+[CLIENT] Received | samples=30 | node accuracy=70.0%
+[2026-05-21 16:31:23] [CLIENT] Received weights: min=-9.9213, max=10.0000, mean=0.1156
+[2026-05-21 16:31:23] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:31:23] 
+[FL] Round 128: Federated Averaging...
+[2026-05-21 16:31:23] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:31:23] [ACCURACY] Global accuracy: 80.0%
+[2026-05-21 16:31:23] [ACCURACY] Change: +2.0%
+[2026-05-21 16:31:23] [FL] Global weights to send: min=-9.9089, max=9.9827, mean=0.1143
+[2026-05-21 16:31:23] [FL] Sending global model...
+[2026-05-21 16:31:23] [FL] Global model sent successfully
+
+[2026-05-21 16:31:43] 
+[CLIENT] Received | samples=30 | node accuracy=80.0%
+[2026-05-21 16:31:43] [CLIENT] Received weights: min=-10.0787, max=10.0000, mean=0.1796
+[2026-05-21 16:31:43] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:31:43] 
+[FL] Round 129: Federated Averaging...
+[2026-05-21 16:31:43] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:31:43] [ACCURACY] Global accuracy: 80.0%
+[2026-05-21 16:31:43] [ACCURACY] Change: +0.0%
+[2026-05-21 16:31:43] [FL] Global weights to send: min=-9.9407, max=9.9909, mean=0.1470
+[2026-05-21 16:31:43] [FL] Sending global model...
+[2026-05-21 16:31:43] [FL] Global model sent successfully
+
+[2026-05-21 16:32:03] 
+[CLIENT] Received | samples=30 | node accuracy=70.0%
+[2026-05-21 16:32:03] [CLIENT] Received weights: min=-9.9213, max=10.0000, mean=0.2030
+[2026-05-21 16:32:03] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:32:03] 
+[FL] Round 130: Federated Averaging...
+[2026-05-21 16:32:03] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:32:03] [ACCURACY] Global accuracy: 76.0%
+[2026-05-21 16:32:03] [ACCURACY] Change: -4.0%
+[2026-05-21 16:32:03] [FL] Global weights to send: min=-9.9313, max=9.9554, mean=0.1750
+[2026-05-21 16:32:03] [FL] Sending global model...
+[2026-05-21 16:32:03] [FL] Global model sent successfully
+
+[2026-05-21 16:32:23] 
+[CLIENT] Received | samples=30 | node accuracy=80.0%
+[2026-05-21 16:32:23] [CLIENT] Received weights: min=-9.6063, max=10.0000, mean=0.2116
+[2026-05-21 16:32:23] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:32:23] 
+[FL] Round 131: Federated Averaging...
+[2026-05-21 16:32:23] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:32:23] [ACCURACY] Global accuracy: 72.0%
+[2026-05-21 16:32:23] [ACCURACY] Change: -4.0%
+[2026-05-21 16:32:23] [FL] Global weights to send: min=-9.7690, max=9.9782, mean=0.1932
+[2026-05-21 16:32:23] [FL] Sending global model...
+[2026-05-21 16:32:23] [FL] Global model sent successfully
+
+[2026-05-21 16:32:43] 
+[CLIENT] Received | samples=30 | node accuracy=70.0%
+[2026-05-21 16:32:43] [CLIENT] Received weights: min=-9.4488, max=9.8425, mean=0.1796
+[2026-05-21 16:32:43] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:32:43] 
+[FL] Round 132: Federated Averaging...
+[2026-05-21 16:32:43] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:32:43] [ACCURACY] Global accuracy: 74.0%
+[2026-05-21 16:32:43] [ACCURACY] Change: +2.0%
+[2026-05-21 16:32:43] [FL] Global weights to send: min=-9.4234, max=9.9100, mean=0.1863
+[2026-05-21 16:32:43] [FL] Sending global model...
+[2026-05-21 16:32:43] [FL] Global model sent successfully
+
+[2026-05-21 16:33:03] 
+[CLIENT] Received | samples=30 | node accuracy=90.0%
+[2026-05-21 16:33:03] [CLIENT] Received weights: min=-10.0787, max=10.0000, mean=0.1587
+[2026-05-21 16:33:03] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:33:03] 
+[FL] Round 133: Federated Averaging...
+[2026-05-21 16:33:03] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:33:03] [ACCURACY] Global accuracy: 74.0%
+[2026-05-21 16:33:03] [ACCURACY] Change: +0.0%
+[2026-05-21 16:33:03] [FL] Global weights to send: min=-9.7518, max=9.9540, mean=0.1726
+[2026-05-21 16:33:03] [FL] Sending global model...
+[2026-05-21 16:33:03] [FL] Global model sent successfully
+
+[2026-05-21 16:33:23] 
+[CLIENT] Received | samples=30 | node accuracy=60.0%
+[2026-05-21 16:33:23] [CLIENT] Received weights: min=-9.5276, max=10.0000, mean=0.1710
+[2026-05-21 16:33:23] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:33:23] 
+[FL] Round 134: Federated Averaging...
+[2026-05-21 16:33:23] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:33:23] [ACCURACY] Global accuracy: 74.0%
+[2026-05-21 16:33:23] [ACCURACY] Change: +0.0%
+[2026-05-21 16:33:23] [FL] Global weights to send: min=-9.6406, max=9.9774, mean=0.1717
+[2026-05-21 16:33:23] [FL] Sending global model...
+[2026-05-21 16:33:23] [FL] Global model sent successfully
+
+[2026-05-21 16:33:43] 
+[CLIENT] Received | samples=30 | node accuracy=100.0%
+[2026-05-21 16:33:43] [CLIENT] Received weights: min=-10.0787, max=10.0000, mean=0.1969
+[2026-05-21 16:33:43] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:33:43] 
+[FL] Round 135: Federated Averaging...
+[2026-05-21 16:33:43] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:33:43] [ACCURACY] Global accuracy: 78.0%
+[2026-05-21 16:33:43] [ACCURACY] Change: +4.0%
+[2026-05-21 16:33:43] [FL] Global weights to send: min=-9.8598, max=9.9880, mean=0.1844
+[2026-05-21 16:33:43] [FL] Sending global model...
+[2026-05-21 16:33:43] [FL] Global model sent successfully
+
+[2026-05-21 16:34:03] 
+[CLIENT] Received | samples=30 | node accuracy=90.0%
+[2026-05-21 16:34:03] [CLIENT] Received weights: min=-10.0000, max=10.0000, mean=0.2485
+[2026-05-21 16:34:03] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:34:03] 
+[FL] Round 136: Federated Averaging...
+[2026-05-21 16:34:03] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:34:03] [ACCURACY] Global accuracy: 74.0%
+[2026-05-21 16:34:03] [ACCURACY] Change: -4.0%
+[2026-05-21 16:34:03] [FL] Global weights to send: min=-9.7721, max=9.9938, mean=0.2164
+[2026-05-21 16:34:03] [FL] Sending global model...
+[2026-05-21 16:34:03] [FL] Global model sent successfully
+
+[2026-05-21 16:34:23] 
+[CLIENT] Received | samples=30 | node accuracy=80.0%
+[2026-05-21 16:34:23] [CLIENT] Received weights: min=-10.0787, max=10.0000, mean=0.1919
+[2026-05-21 16:34:23] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:34:23] 
+[FL] Round 137: Federated Averaging...
+[2026-05-21 16:34:23] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:34:23] [ACCURACY] Global accuracy: 70.0%
+[2026-05-21 16:34:23] [ACCURACY] Change: -4.0%
+[2026-05-21 16:34:23] [FL] Global weights to send: min=-9.8481, max=9.9967, mean=0.2041
+[2026-05-21 16:34:23] [FL] Sending global model...
+[2026-05-21 16:34:23] [FL] Global model sent successfully
+
+[2026-05-21 16:34:43] 
+[CLIENT] Received | samples=30 | node accuracy=90.0%
+[2026-05-21 16:34:43] [CLIENT] Received weights: min=-10.0787, max=10.0000, mean=0.1956
+[2026-05-21 16:34:43] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:34:43] 
+[FL] Round 138: Federated Averaging...
+[2026-05-21 16:34:43] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:34:43] [ACCURACY] Global accuracy: 72.0%
+[2026-05-21 16:34:43] [ACCURACY] Change: +2.0%
+[2026-05-21 16:34:43] [FL] Global weights to send: min=-9.9641, max=9.9591, mean=0.1997
+[2026-05-21 16:34:43] [FL] Sending global model...
+[2026-05-21 16:34:43] [FL] Global model sent successfully
+
+[2026-05-21 16:35:03] 
+[CLIENT] Received | samples=30 | node accuracy=90.0%
+[2026-05-21 16:35:03] [CLIENT] Received weights: min=-10.0787, max=9.8425, mean=0.1378
+[2026-05-21 16:35:03] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:35:03] 
+[FL] Round 139: Federated Averaging...
+[2026-05-21 16:35:03] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:35:03] [ACCURACY] Global accuracy: 72.0%
+[2026-05-21 16:35:03] [ACCURACY] Change: +0.0%
+[2026-05-21 16:35:03] [FL] Global weights to send: min=-10.0204, max=9.8554, mean=0.1688
+[2026-05-21 16:35:03] [FL] Sending global model...
+[2026-05-21 16:35:03] [FL] Global model sent successfully
+
+[2026-05-21 16:35:23] 
+[CLIENT] Received | samples=30 | node accuracy=90.0%
+[2026-05-21 16:35:23] [CLIENT] Received weights: min=-10.0787, max=10.0000, mean=0.2042
+[2026-05-21 16:35:23] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:35:23] 
+[FL] Round 140: Federated Averaging...
+[2026-05-21 16:35:23] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:35:23] [ACCURACY] Global accuracy: 76.0%
+[2026-05-21 16:35:23] [ACCURACY] Change: +4.0%
+[2026-05-21 16:35:23] [FL] Global weights to send: min=-10.0502, max=9.9287, mean=0.1863
+[2026-05-21 16:35:23] [FL] Sending global model...
+[2026-05-21 16:35:23] [FL] Global model sent successfully
+
+[2026-05-21 16:35:43] 
+[CLIENT] Received | samples=30 | node accuracy=70.0%
+[2026-05-21 16:35:43] [CLIENT] Received weights: min=-10.0787, max=10.0000, mean=0.2153
+[2026-05-21 16:35:43] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:35:43] 
+[FL] Round 141: Federated Averaging...
+[2026-05-21 16:35:43] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:35:43] [ACCURACY] Global accuracy: 80.0%
+[2026-05-21 16:35:43] [ACCURACY] Change: +4.0%
+[2026-05-21 16:35:43] [FL] Global weights to send: min=-10.0638, max=9.9639, mean=0.2007
+[2026-05-21 16:35:43] [FL] Sending global model...
+[2026-05-21 16:35:43] [FL] Global model sent successfully
+
+[2026-05-21 16:36:03] 
+[CLIENT] Received | samples=30 | node accuracy=80.0%
+[2026-05-21 16:36:03] [CLIENT] Received weights: min=-10.0787, max=10.0000, mean=0.1698
+[2026-05-21 16:36:03] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:36:03] 
+[FL] Round 142: Federated Averaging...
+[2026-05-21 16:36:03] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:36:03] [ACCURACY] Global accuracy: 80.0%
+[2026-05-21 16:36:03] [ACCURACY] Change: +0.0%
+[2026-05-21 16:36:03] [FL] Global weights to send: min=-10.0718, max=9.9813, mean=0.1853
+[2026-05-21 16:36:03] [FL] Sending global model...
+[2026-05-21 16:36:03] [FL] Global model sent successfully
+
+[2026-05-21 16:36:23] 
+[CLIENT] Received | samples=30 | node accuracy=80.0%
+[2026-05-21 16:36:23] [CLIENT] Received weights: min=-10.0787, max=10.0000, mean=0.1919
+[2026-05-21 16:36:23] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:36:23] 
+[FL] Round 143: Federated Averaging...
+[2026-05-21 16:36:23] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:36:23] [ACCURACY] Global accuracy: 80.0%
+[2026-05-21 16:36:23] [ACCURACY] Change: +0.0%
+[2026-05-21 16:36:23] [FL] Global weights to send: min=-10.0741, max=9.9910, mean=0.1886
+[2026-05-21 16:36:23] [FL] Sending global model...
+[2026-05-21 16:36:23] [FL] Global model sent successfully
+
+[2026-05-21 16:36:43] 
+[CLIENT] Received | samples=30 | node accuracy=60.0%
+[2026-05-21 16:36:43] [CLIENT] Received weights: min=-9.9213, max=10.0000, mean=0.2079
+[2026-05-21 16:36:43] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:36:43] 
+[FL] Round 144: Federated Averaging...
+[2026-05-21 16:36:43] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:36:43] [ACCURACY] Global accuracy: 76.0%
+[2026-05-21 16:36:43] [ACCURACY] Change: -4.0%
+[2026-05-21 16:36:43] [FL] Global weights to send: min=-9.9280, max=9.9673, mean=0.1982
+[2026-05-21 16:36:43] [FL] Sending global model...
+[2026-05-21 16:36:43] [FL] Global model sent successfully
+
+[2026-05-21 16:37:03] 
+[CLIENT] Received | samples=30 | node accuracy=70.0%
+[2026-05-21 16:37:03] [CLIENT] Received weights: min=-9.4488, max=10.0000, mean=0.2042
+[2026-05-21 16:37:03] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:37:03] 
+[FL] Round 145: Federated Averaging...
+[2026-05-21 16:37:03] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:37:03] [ACCURACY] Global accuracy: 74.0%
+[2026-05-21 16:37:03] [ACCURACY] Change: -2.0%
+[2026-05-21 16:37:03] [FL] Global weights to send: min=-9.6869, max=9.9645, mean=0.2013
+[2026-05-21 16:37:03] [FL] Sending global model...
+[2026-05-21 16:37:03] [FL] Global model sent successfully
+
+[2026-05-21 16:37:23] 
+[CLIENT] Received | samples=30 | node accuracy=90.0%
+[2026-05-21 16:37:23] [CLIENT] Received weights: min=-9.1339, max=10.0000, mean=0.1698
+[2026-05-21 16:37:23] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:37:23] 
+[FL] Round 146: Federated Averaging...
+[2026-05-21 16:37:23] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:37:23] [ACCURACY] Global accuracy: 76.0%
+[2026-05-21 16:37:23] [ACCURACY] Change: +2.0%
+[2026-05-21 16:37:23] [FL] Global weights to send: min=-9.4101, max=9.9813, mean=0.1855
+[2026-05-21 16:37:23] [FL] Sending global model...
+[2026-05-21 16:37:23] [FL] Global model sent successfully
+
+[2026-05-21 16:37:43] 
+[CLIENT] Received | samples=30 | node accuracy=70.0%
+[2026-05-21 16:37:43] [CLIENT] Received weights: min=-9.2126, max=10.0000, mean=0.1390
+[2026-05-21 16:37:43] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:37:43] 
+[FL] Round 147: Federated Averaging...
+[2026-05-21 16:37:43] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:37:43] [ACCURACY] Global accuracy: 78.0%
+[2026-05-21 16:37:43] [ACCURACY] Change: +2.0%
+[2026-05-21 16:37:43] [FL] Global weights to send: min=-9.3112, max=9.9906, mean=0.1624
+[2026-05-21 16:37:43] [FL] Sending global model...
+[2026-05-21 16:37:43] [FL] Global model sent successfully
+
+[2026-05-21 16:38:03] 
+[CLIENT] Received | samples=30 | node accuracy=80.0%
+[2026-05-21 16:38:03] [CLIENT] Received weights: min=-9.5276, max=10.0000, mean=0.1612
+[2026-05-21 16:38:03] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:38:03] 
+[FL] Round 148: Federated Averaging...
+[2026-05-21 16:38:03] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:38:03] [ACCURACY] Global accuracy: 76.0%
+[2026-05-21 16:38:03] [ACCURACY] Change: -2.0%
+[2026-05-21 16:38:03] [FL] Global weights to send: min=-9.4194, max=9.9957, mean=0.1619
+[2026-05-21 16:38:03] [FL] Sending global model...
+[2026-05-21 16:38:03] [FL] Global model sent successfully
+
+[2026-05-21 16:38:23] 
+[CLIENT] Received | samples=30 | node accuracy=80.0%
+[2026-05-21 16:38:23] [CLIENT] Received weights: min=-10.0787, max=9.8425, mean=0.1513
+[2026-05-21 16:38:23] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:38:23] 
+[FL] Round 149: Federated Averaging...
+[2026-05-21 16:38:23] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:38:23] [ACCURACY] Global accuracy: 76.0%
+[2026-05-21 16:38:23] [ACCURACY] Change: +0.0%
+[2026-05-21 16:38:23] [FL] Global weights to send: min=-9.7488, max=9.9195, mean=0.1567
+[2026-05-21 16:38:23] [FL] Sending global model...
+[2026-05-21 16:38:23] [FL] Global model sent successfully
+
+[2026-05-21 16:38:43] 
+[CLIENT] Received | samples=30 | node accuracy=100.0%
+[2026-05-21 16:38:43] [CLIENT] Received weights: min=-10.0787, max=10.0000, mean=0.1747
+[2026-05-21 16:38:43] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:38:43] 
+[FL] Round 150: Federated Averaging...
+[2026-05-21 16:38:43] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:38:43] [ACCURACY] Global accuracy: 80.0%
+[2026-05-21 16:38:43] [ACCURACY] Change: +4.0%
+[2026-05-21 16:38:43] [FL] Global weights to send: min=-9.8181, max=9.9594, mean=0.1657
+[2026-05-21 16:38:43] [FL] Sending global model...
+[2026-05-21 16:38:43] [FL] Global model sent successfully
+
+[2026-05-21 16:39:03] 
+[CLIENT] Received | samples=30 | node accuracy=100.0%
+[2026-05-21 16:39:03] [CLIENT] Received weights: min=-10.0787, max=10.0000, mean=0.0997
+[2026-05-21 16:39:03] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:39:03] 
+[FL] Round 151: Federated Averaging...
+[2026-05-21 16:39:03] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:39:03] [ACCURACY] Global accuracy: 78.0%
+[2026-05-21 16:39:03] [ACCURACY] Change: -2.0%
+[2026-05-21 16:39:03] [FL] Global weights to send: min=-9.9487, max=9.9797, mean=0.1327
+[2026-05-21 16:39:03] [FL] Sending global model...
+[2026-05-21 16:39:03] [FL] Global model sent successfully
+
+[2026-05-21 16:39:23] 
+[CLIENT] Received | samples=30 | node accuracy=90.0%
+[2026-05-21 16:39:23] [CLIENT] Received weights: min=-10.0787, max=10.0000, mean=0.0874
+[2026-05-21 16:39:23] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:39:23] 
+[FL] Round 152: Federated Averaging...
+[2026-05-21 16:39:23] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:39:23] [ACCURACY] Global accuracy: 78.0%
+[2026-05-21 16:39:23] [ACCURACY] Change: +0.0%
+[2026-05-21 16:39:23] [FL] Global weights to send: min=-9.9396, max=9.9889, mean=0.1101
+[2026-05-21 16:39:23] [FL] Sending global model...
+[2026-05-21 16:39:23] [FL] Global model sent successfully
+
+[2026-05-21 16:39:43] 
+[CLIENT] Received | samples=30 | node accuracy=90.0%
+[2026-05-21 16:39:43] [CLIENT] Received weights: min=-10.0787, max=10.0000, mean=0.1403
+[2026-05-21 16:39:43] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:39:43] 
+[FL] Round 153: Federated Averaging...
+[2026-05-21 16:39:43] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:39:43] [ACCURACY] Global accuracy: 78.0%
+[2026-05-21 16:39:43] [ACCURACY] Change: +0.0%
+[2026-05-21 16:39:43] [FL] Global weights to send: min=-9.8957, max=9.9947, mean=0.1252
+[2026-05-21 16:39:43] [FL] Sending global model...
+[2026-05-21 16:39:43] [FL] Global model sent successfully
+
+[2026-05-21 16:40:03] 
+[CLIENT] Received | samples=30 | node accuracy=70.0%
+[2026-05-21 16:40:03] [CLIENT] Received weights: min=-9.8425, max=10.0000, mean=0.1772
+[2026-05-21 16:40:03] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:40:03] 
+[FL] Round 154: Federated Averaging...
+[2026-05-21 16:40:03] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:40:03] [ACCURACY] Global accuracy: 80.0%
+[2026-05-21 16:40:03] [ACCURACY] Change: +2.0%
+[2026-05-21 16:40:03] [FL] Global weights to send: min=-9.8280, max=9.9973, mean=0.1512
+[2026-05-21 16:40:03] [FL] Sending global model...
+[2026-05-21 16:40:03] [FL] Global model sent successfully
+
+[2026-05-21 16:40:23] 
+[CLIENT] Received | samples=30 | node accuracy=80.0%
+[2026-05-21 16:40:23] [CLIENT] Received weights: min=-10.0787, max=9.6063, mean=0.1944
+[2026-05-21 16:40:23] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:40:23] 
+[FL] Round 155: Federated Averaging...
+[2026-05-21 16:40:23] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:40:23] [ACCURACY] Global accuracy: 82.0%
+[2026-05-21 16:40:23] [ACCURACY] Change: +2.0%
+[2026-05-21 16:40:23] [FL] Global weights to send: min=-9.9028, max=9.8001, mean=0.1727
+[2026-05-21 16:40:23] [FL] Sending global model...
+[2026-05-21 16:40:23] [FL] Global model sent successfully
+
+[2026-05-21 16:40:43] 
+[CLIENT] Received | samples=30 | node accuracy=70.0%
+[2026-05-21 16:40:43] [CLIENT] Received weights: min=-10.0787, max=10.0000, mean=0.1981
+[2026-05-21 16:40:43] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:40:43] 
+[FL] Round 156: Federated Averaging...
+[2026-05-21 16:40:43] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:40:43] [ACCURACY] Global accuracy: 80.0%
+[2026-05-21 16:40:43] [ACCURACY] Change: -2.0%
+[2026-05-21 16:40:43] [FL] Global weights to send: min=-9.9902, max=9.8596, mean=0.1854
+[2026-05-21 16:40:43] [FL] Sending global model...
+[2026-05-21 16:40:43] [FL] Global model sent successfully
+
+[2026-05-21 16:41:03] 
+[CLIENT] Received | samples=30 | node accuracy=70.0%
+[2026-05-21 16:41:03] [CLIENT] Received weights: min=-10.0787, max=10.0000, mean=0.1907
+[2026-05-21 16:41:03] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:41:03] 
+[FL] Round 157: Federated Averaging...
+[2026-05-21 16:41:03] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:41:03] [ACCURACY] Global accuracy: 76.0%
+[2026-05-21 16:41:03] [ACCURACY] Change: -4.0%
+[2026-05-21 16:41:03] [FL] Global weights to send: min=-10.0345, max=9.9284, mean=0.1879
+[2026-05-21 16:41:03] [FL] Sending global model...
+[2026-05-21 16:41:03] [FL] Global model sent successfully
+
+[2026-05-21 16:41:23] 
+[CLIENT] Received | samples=30 | node accuracy=70.0%
+[2026-05-21 16:41:23] [CLIENT] Received weights: min=-10.0787, max=10.0000, mean=0.1956
+[2026-05-21 16:41:23] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:41:23] 
+[FL] Round 158: Federated Averaging...
+[2026-05-21 16:41:23] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:41:23] [ACCURACY] Global accuracy: 74.0%
+[2026-05-21 16:41:23] [ACCURACY] Change: -2.0%
+[2026-05-21 16:41:23] [FL] Global weights to send: min=-10.0573, max=9.9642, mean=0.1916
+[2026-05-21 16:41:23] [FL] Sending global model...
+[2026-05-21 16:41:23] [FL] Global model sent successfully
+
+[2026-05-21 16:41:43] 
+[CLIENT] Received | samples=30 | node accuracy=80.0%
+[2026-05-21 16:41:43] [CLIENT] Received weights: min=-9.8425, max=9.6063, mean=0.1439
+[2026-05-21 16:41:43] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:41:43] 
+[FL] Round 159: Federated Averaging...
+[2026-05-21 16:41:43] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:41:43] [ACCURACY] Global accuracy: 76.0%
+[2026-05-21 16:41:43] [ACCURACY] Change: +2.0%
+[2026-05-21 16:41:43] [FL] Global weights to send: min=-9.9498, max=9.7851, mean=0.1678
+[2026-05-21 16:41:43] [FL] Sending global model...
+[2026-05-21 16:41:43] [FL] Global model sent successfully
+
+[2026-05-21 16:42:03] 
+[CLIENT] Received | samples=30 | node accuracy=80.0%
+[2026-05-21 16:42:03] [CLIENT] Received weights: min=-9.6063, max=9.4488, mean=0.1329
+[2026-05-21 16:42:03] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:42:03] 
+[FL] Round 160: Federated Averaging...
+[2026-05-21 16:42:03] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:42:03] [ACCURACY] Global accuracy: 76.0%
+[2026-05-21 16:42:03] [ACCURACY] Change: +0.0%
+[2026-05-21 16:42:03] [FL] Global weights to send: min=-9.7774, max=9.5380, mean=0.1503
+[2026-05-21 16:42:03] [FL] Sending global model...
+[2026-05-21 16:42:03] [FL] Global model sent successfully
+
+[2026-05-21 16:42:23] 
+[CLIENT] Received | samples=30 | node accuracy=70.0%
+[2026-05-21 16:42:23] [CLIENT] Received weights: min=-9.3701, max=9.8425, mean=0.1476
+[2026-05-21 16:42:23] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:42:23] 
+[FL] Round 161: Federated Averaging...
+[2026-05-21 16:42:23] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:42:23] [ACCURACY] Global accuracy: 78.0%
+[2026-05-21 16:42:23] [ACCURACY] Change: +2.0%
+[2026-05-21 16:42:23] [FL] Global weights to send: min=-9.4273, max=9.6117, mean=0.1490
+[2026-05-21 16:42:23] [FL] Sending global model...
+[2026-05-21 16:42:23] [FL] Global model sent successfully
+
+[2026-05-21 16:42:43] 
+[CLIENT] Received | samples=30 | node accuracy=60.0%
+[2026-05-21 16:42:43] [CLIENT] Received weights: min=-9.5276, max=9.6063, mean=0.1304
+[2026-05-21 16:42:43] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:42:43] 
+[FL] Round 162: Federated Averaging...
+[2026-05-21 16:42:43] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:42:43] [ACCURACY] Global accuracy: 74.0%
+[2026-05-21 16:42:43] [ACCURACY] Change: -4.0%
+[2026-05-21 16:42:43] [FL] Global weights to send: min=-9.4763, max=9.5912, mean=0.1398
+[2026-05-21 16:42:43] [FL] Sending global model...
+[2026-05-21 16:42:43] [FL] Global model sent successfully
+
+[2026-05-21 16:43:03] 
+[CLIENT] Received | samples=30 | node accuracy=100.0%
+[2026-05-21 16:43:03] [CLIENT] Received weights: min=-9.9213, max=9.7638, mean=0.0947
+[2026-05-21 16:43:03] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:43:03] 
+[FL] Round 163: Federated Averaging...
+[2026-05-21 16:43:03] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:43:03] [ACCURACY] Global accuracy: 78.0%
+[2026-05-21 16:43:03] [ACCURACY] Change: +4.0%
+[2026-05-21 16:43:03] [FL] Global weights to send: min=-9.5884, max=9.6780, mean=0.1173
+[2026-05-21 16:43:03] [FL] Sending global model...
+[2026-05-21 16:43:03] [FL] Global model sent successfully
+
+[2026-05-21 16:43:23] 
+[CLIENT] Received | samples=30 | node accuracy=100.0%
+[2026-05-21 16:43:23] [CLIENT] Received weights: min=-10.0787, max=10.0000, mean=0.1353
+[2026-05-21 16:43:23] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:43:23] 
+[FL] Round 164: Federated Averaging...
+[2026-05-21 16:43:23] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:43:23] [ACCURACY] Global accuracy: 78.0%
+[2026-05-21 16:43:23] [ACCURACY] Change: +0.0%
+[2026-05-21 16:43:23] [FL] Global weights to send: min=-9.8328, max=9.8389, mean=0.1264
+[2026-05-21 16:43:23] [FL] Sending global model...
+[2026-05-21 16:43:23] [FL] Global model sent successfully
+
+[2026-05-21 16:43:43] 
+[CLIENT] Received | samples=30 | node accuracy=70.0%
+[2026-05-21 16:43:43] [CLIENT] Received weights: min=-10.0787, max=10.0000, mean=0.1132
+[2026-05-21 16:43:43] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:43:43] 
+[FL] Round 165: Federated Averaging...
+[2026-05-21 16:43:43] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:43:43] [ACCURACY] Global accuracy: 78.0%
+[2026-05-21 16:43:43] [ACCURACY] Change: +0.0%
+[2026-05-21 16:43:43] [FL] Global weights to send: min=-9.9551, max=9.9198, mean=0.1198
+[2026-05-21 16:43:43] [FL] Sending global model...
+[2026-05-21 16:43:43] [FL] Global model sent successfully
+
+[2026-05-21 16:44:03] 
+[CLIENT] Received | samples=30 | node accuracy=100.0%
+[2026-05-21 16:44:03] [CLIENT] Received weights: min=-10.0787, max=10.0000, mean=0.1058
+[2026-05-21 16:44:03] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:44:03] 
+[FL] Round 166: Federated Averaging...
+[2026-05-21 16:44:03] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:44:03] [ACCURACY] Global accuracy: 76.0%
+[2026-05-21 16:44:03] [ACCURACY] Change: -2.0%
+[2026-05-21 16:44:03] [FL] Global weights to send: min=-10.0169, max=9.9597, mean=0.1127
+[2026-05-21 16:44:03] [FL] Sending global model...
+[2026-05-21 16:44:03] [FL] Global model sent successfully
+
+[2026-05-21 16:44:23] 
+[CLIENT] Received | samples=30 | node accuracy=80.0%
+[2026-05-21 16:44:23] [CLIENT] Received weights: min=-10.0787, max=10.0000, mean=0.0541
+[2026-05-21 16:44:23] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:44:23] 
+[FL] Round 167: Federated Averaging...
+[2026-05-21 16:44:23] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:44:23] [ACCURACY] Global accuracy: 78.0%
+[2026-05-21 16:44:23] [ACCURACY] Change: +2.0%
+[2026-05-21 16:44:23] [FL] Global weights to send: min=-10.0479, max=9.9790, mean=0.0834
+[2026-05-21 16:44:23] [FL] Sending global model...
+[2026-05-21 16:44:23] [FL] Global model sent successfully
+
+[2026-05-21 16:44:43] 
+[CLIENT] Received | samples=30 | node accuracy=90.0%
+[2026-05-21 16:44:43] [CLIENT] Received weights: min=-10.0787, max=10.0000, mean=0.0812
+[2026-05-21 16:44:43] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:44:43] 
+[FL] Round 168: Federated Averaging...
+[2026-05-21 16:44:43] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:44:43] [ACCURACY] Global accuracy: 76.0%
+[2026-05-21 16:44:43] [ACCURACY] Change: -2.0%
+[2026-05-21 16:44:43] [FL] Global weights to send: min=-10.0624, max=9.9898, mean=0.0822
+[2026-05-21 16:44:43] [FL] Sending global model...
+[2026-05-21 16:44:43] [FL] Global model sent successfully
+
+[2026-05-21 16:45:03] 
+[CLIENT] Received | samples=30 | node accuracy=90.0%
+[2026-05-21 16:45:03] [CLIENT] Received weights: min=-10.0787, max=10.0000, mean=0.0874
+[2026-05-21 16:45:03] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:45:03] 
+[FL] Round 169: Federated Averaging...
+[2026-05-21 16:45:03] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:45:03] [ACCURACY] Global accuracy: 72.0%
+[2026-05-21 16:45:03] [ACCURACY] Change: -4.0%
+[2026-05-21 16:45:03] [FL] Global weights to send: min=-10.0701, max=9.9953, mean=0.0848
+[2026-05-21 16:45:03] [FL] Sending global model...
+[2026-05-21 16:45:03] [FL] Global model sent successfully
+
+[2026-05-21 16:45:23] 
+[CLIENT] Received | samples=30 | node accuracy=80.0%
+[2026-05-21 16:45:23] [CLIENT] Received weights: min=-10.0787, max=10.0000, mean=0.0677
+[2026-05-21 16:45:23] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:45:23] 
+[FL] Round 170: Federated Averaging...
+[2026-05-21 16:45:23] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:45:23] [ACCURACY] Global accuracy: 70.0%
+[2026-05-21 16:45:23] [ACCURACY] Change: -2.0%
+[2026-05-21 16:45:23] [FL] Global weights to send: min=-10.0739, max=9.9972, mean=0.0762
+[2026-05-21 16:45:23] [FL] Sending global model...
+[2026-05-21 16:45:23] [FL] Global model sent successfully
+
+[2026-05-21 16:45:43] 
+[CLIENT] Received | samples=30 | node accuracy=70.0%
+[2026-05-21 16:45:43] [CLIENT] Received weights: min=-10.0787, max=10.0000, mean=0.0960
+[2026-05-21 16:45:43] [SIM] Created 3 heterogeneous clients
+[2026-05-21 16:45:43] 
+[FL] Round 171: Federated Averaging...
+[2026-05-21 16:45:43] [FL] Aggregated 90 samples from 3 clients
+[2026-05-21 16:45:43] [ACCURACY] Global accuracy: 72.0%
+[2026-05-21 16:45:43] [ACCURACY] Change: +2.0%
+[2026-05-21 16:45:43] [FL] Global weights to send: min=-10.0372, max=9.9975, mean=0.0861
+[2026-05-21 16:45:43] [FL] Sending global model...
+[2026-05-21 16:45:43] [FL] Global model sent successfully
+

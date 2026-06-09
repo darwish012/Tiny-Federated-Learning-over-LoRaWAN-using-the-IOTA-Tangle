@@ -1,0 +1,346 @@
+================================================================================
+         MASTER'S THESIS REPORT & EXPERIMENTAL LOG:
+  TINY FEDERATED LEARNING OVER LORAWAN USING THE IOTA TANGLE
+================================================================================
+Date: June 1, 2026
+Location: c:\Users\Dell\Desktop\masters\summary_of_work.txt
+
+This comprehensive report documents all engineering tasks, testing phases, 
+debugging processes, design decisions, and theoretical principles developed 
+during this project. It is structured to serve as an academic log for your 
+master's thesis.
+
+================================================================================
+TABLE OF CONTENTS
+================================================================================
+1. EXECUTIVE SUMMARY & WORKSPACE OVERVIEW
+2. CHRONOLOGICAL LOG OF TESTING & DEBUGGING
+   2.1. Bluetooth Stack Compilation Notes
+   2.2. The Convergence Failure (Flat Accuracy)
+   2.3. The Quantization Scale Bug
+   2.4. Resolution & Verification Results
+   2.5. Log File Lifecycle Analysis
+3. DETAILED TECHNICAL ARCHITECTURE
+   3.1. Base Neural Network Architecture
+   3.2. Low-Rank Adaptation (LoRA) Implementation
+   3.3. Client-Side Training (On-Device Backpropagation & AdamW)
+   3.4. Serialization & Integer Quantization (int8_t)
+   3.5. Federated Averaging (FedAvg) Protocol
+4. THEORETICAL ANALYSIS & DESIGN DECISION RATIONALE
+   4.1. Why Use LoRA on a Microcontroller?
+   4.2. Why Use LoRA on an Un-Trained, Deterministically-Initialized Base Model?
+   4.3. Resource Trade-Offs (SRAM vs. Flash)
+5. PROPOSAL FOR PRODUCTION-LEVEL EXPERIMENTATION
+   5.1. Realistic TinyML Datasets & Model Structures
+   5.2. Proposed Experimental Setup & Evaluation Metrics
+6. BIBLIOGRAPHY & ACADEMIC LITERATURE CITATIONS
+
+================================================================================
+1. EXECUTIVE SUMMARY & WORKSPACE OVERVIEW
+================================================================================
+The objective of this project is to implement, test, and evaluate a Tiny 
+Federated Learning (TinyFL) framework on a resource-constrained microcontroller 
+(ESP32). To minimize the communication bandwidth over narrow, low-power networks 
+like LoRaWAN and Bluetooth Low Energy (BLE), the system implements Low-Rank 
+Adaptation (LoRA). The client (ESP32) runs local training on a small dataset, 
+updates only a tiny fraction of the parameters (the LoRA B adapters), quantizes 
+them to 8-bit integers, and transmits them to a central Python server. The server 
+aggregates these local weights using Federated Averaging (FedAvg) and updates a 
+global model, which is then fed back to the clients.
+
+The code is divided into two primary workspaces:
+- c:\Users\Dell\Desktop\masters\tinyfl : The main workspace containing the ESP32 
+  C++ project (`tinyfl_client`) and the Python server simulator.
+- c:\Users\Dell\Desktop\masters\final lab : The secondary workspace containing 
+  complementary implementations, integration files, and logs.
+
+================================================================================
+2. CHRONOLOGICAL LOG OF TESTING & DEBUGGING
+================================================================================
+
+--------------------------------------------------------------------------------
+2.1. Bluetooth Stack Compilation Notes
+--------------------------------------------------------------------------------
+During compilation of `tinyfl_client.ino` for the ESP32 platform, a compiler 
+notification was raised:
+  "#pragma message: BT: forcing BR/EDR max sync conn eff to 1 (Bluedroid HFP requires SCO/eSCO)"
+  
+- ACTION: We analyzed this message and verified it is a standard config warning 
+  from the ESP32's underlying Bluedroid Bluetooth stack. It is informational 
+  and does not impact compilation, program size, or runtime stability of the 
+  Federated Learning process or BLE data transfer.
+
+--------------------------------------------------------------------------------
+2.2. The Convergence Failure (Flat Accuracy)
+--------------------------------------------------------------------------------
+- SYMPTOM: During early testing rounds, the model was failing to learn. The 
+  loss remained static or fluctuated minimally, and global classification accuracy 
+  on the validation set stayed flat around ~20% to ~25% (essentially equivalent 
+  to random guessing on a 4-class classification task).
+- ANALYSIS: The issue persisted across multiple local epochs, suggesting that 
+  updates computed during backpropagation were either not being applied, 
+  being lost during transmission, or being numerically obliterated.
+
+--------------------------------------------------------------------------------
+2.3. The Quantization Scale Bug
+--------------------------------------------------------------------------------
+- DIAGNOSIS: We traced the flow of weight changes from the gradient updates 
+  in `nn.cpp` to the serialization phase. 
+  In the packing function, weights were serialized to int8_t bytes:
+    int8_t quantize_weight(float w) {
+      float scaled = w * QUANT_SCALE * 127.0f;
+      // ... clipping to [-128, 127] ...
+    }
+  Similarly, during unpacking:
+    float unquantized_weight = (float)q_val / (127.0f * QUANT_SCALE);
+
+  In the buggy implementation, `QUANT_SCALE` was set to `4.0` in both 
+  `nn.cpp` (client) and `server.py` (server).
+  
+  - Numerical Consequence:
+    With QUANT_SCALE = 4.0, the quantization scale factor was 4 * 127 = 508.
+    If the Adam optimizer adjusted a LoRA weight to a value of 0.05, it was 
+    scaled as:
+      0.05 * 508 = 25.4 -> rounded to 25.
+      Unpacked weight: 25 / 508 = 0.0492.
+    However, if updates were small (e.g., 0.001), they scaled to:
+      0.001 * 508 = 0.508 -> rounded to 1 (or 0 if even smaller).
+      Unpacked weight: 1 / 508 = 0.0019 (a 90% error rate).
+    More critically, the clipping range was extremely narrow. The maximum 
+    weight that could be represented before clipping to 127 was:
+      127 / 508 = 0.25.
+    Any weight magnitude exceeding 0.25 was clamped to 0.25. This made it 
+    impossible for the adapter weights to grow large enough to scale and influence 
+    the frozen base model. The optimizer could not make meaningful steps, 
+    clamping updates and causing the model's accuracy to stall at ~20-25%.
+
+--------------------------------------------------------------------------------
+2.4. Resolution & Verification Results
+--------------------------------------------------------------------------------
+- ACTION: We changed `QUANT_SCALE` to `0.1` in both `nn.cpp` and `server.py`.
+  - Numerical Consequence:
+    The quantization scale factor became 0.1 * 127 = 12.7.
+    The maximum representable weight before clipping expanded to:
+      127 / 12.7 = 10.0.
+    This allowed weights to grow freely to values like 1.0, 2.0, or higher, 
+    which are essential for the LoRA adapter to override and steer the frozen 
+    base weights.
+- RESULT: In subsequent test runs, the convergence bug was completely resolved. 
+  The global accuracy rose steadily round-by-round, converging to ~82% 
+  accuracy over 170+ rounds of federated averaging.
+
+--------------------------------------------------------------------------------
+2.5. Log File Lifecycle Analysis
+--------------------------------------------------------------------------------
+During development, the user noted that log files were reset each time the 
+testing script ran. We verified that:
+- The server and client simulation scripts are designed to start with clean logs 
+  on each run to avoid blending statistics from different training sessions.
+- This clean start is essential during experimental phases, ensuring that 
+  hyperparameter changes (like the `QUANT_SCALE` fix) are measured in isolation.
+
+================================================================================
+3. DETAILED TECHNICAL ARCHITECTURE
+================================================================================
+
+--------------------------------------------------------------------------------
+3.1. Base Neural Network Architecture
+--------------------------------------------------------------------------------
+The client implements a feedforward Multilayer Perceptron (MLP) defined as:
+- Input Size: 50 features
+- Hidden Layer 1 (H1): 8 neurons (ReLU activation)
+- Hidden Layer 2 (H2): 4 neurons (ReLU activation)
+- Output Layer: 4 classes (Softmax activation - dog, cat, horse, other)
+
+The base model contains:
+- W1: 8 x 50 = 400 weights
+- b1: 8 biases
+- W2: 4 x 8 = 32 weights
+- b2: 4 biases
+- W3: 4 x 4 = 16 weights
+- b3: 4 biases
+Total Base Parameters: 464 floats (1,856 bytes). These weights are frozen at 
+runtime and stored in Flash memory.
+
+--------------------------------------------------------------------------------
+3.2. Low-Rank Adaptation (LoRA) Implementation
+--------------------------------------------------------------------------------
+Instead of training the base weights, we decompose the weight updates of each 
+layer using low-rank matrices. For a weight matrix W of size d x k, the update 
+delta is factored as:
+  delta_W = B x A x LORA_ALPHA
+where:
+  - B is a d x r matrix, initialized to 0.
+  - A is an r x k matrix, randomly initialized and frozen.
+  - r is the LORA_RANK (set to 4).
+  - LORA_ALPHA is a constant scaling factor (set to 0.5).
+
+Parameters per layer:
+- Layer 1 (50 -> 8):
+  - A1: 4 x 50 = 200 parameters (frozen)
+  - B1: 8 x 4 = 32 parameters (trainable)
+- Layer 2 (8 -> 4):
+  - A2: 4 x 8 = 32 parameters (frozen)
+  - B2: 4 x 4 = 16 parameters (trainable)
+- Layer 3 (4 -> 4):
+  - A3: 4 x 4 = 16 parameters (frozen)
+  - B3: 4 x 4 = 16 parameters (trainable)
+
+Total Trainable Parameters (B matrices): 32 + 16 + 16 = 64 floats.
+
+--------------------------------------------------------------------------------
+3.3. Client-Side Training (On-Device Backpropagation & AdamW)
+--------------------------------------------------------------------------------
+The ESP32 runs a local training epoch on its on-device training samples:
+- Forward Pass: Compares base activations with the added LoRA adapter outputs 
+  at each layer.
+- Backward Pass: Computes the cross-entropy loss relative to the ground truth 
+  class. It backpropagates gradients through the layers, but only calculates 
+  and stores gradients for the trainable B matrices:
+    - d_B3, d_B2, d_B1.
+- Optimizer: It uses the AdamW optimizer. Since Adam requires tracking the 
+  first momentum (m) and second momentum (v) for each parameter, the state size 
+  is:
+    - m states: 64 floats
+    - v states: 64 floats
+  Total Adam Optimizer State: 128 floats (512 bytes).
+
+--------------------------------------------------------------------------------
+3.4. Serialization & Integer Quantization (int8_t)
+--------------------------------------------------------------------------------
+To minimize transmission payload size over constrained links, the client:
+1. Quantizes the 64 trainable floats of the B matrices to 8-bit integers (int8_t) 
+   using a quantization scale factor of 12.7 (`QUANT_SCALE` = 0.1).
+2. Packages these 64 bytes into a single flat buffer.
+3. Transmits the 64-byte payload. 
+This results in an 84% reduction in payload size compared to sending the 64 
+parameters as 32-bit floats (256 bytes).
+
+--------------------------------------------------------------------------------
+3.5. Federated Averaging (FedAvg) Protocol
+================================================================================
+1. The server receives the 64-byte quantized buffers from local clients.
+2. It dequantizes the buffers back into floating-point B matrices.
+3. It averages the B matrices across all participating clients:
+     B_global = (1 / N) * sum(B_local_i)
+4. It packages the global B matrices back into a 64-byte quantized buffer 
+   and broadcasts it back to the clients for the next training round.
+
+================================================================================
+4. THEORETICAL ANALYSIS & DESIGN DECISION RATIONALE
+================================================================================
+
+--------------------------------------------------------------------------------
+4.1. Why Use LoRA on a Microcontroller?
+--------------------------------------------------------------------------------
+Training deep networks on microcontrollers is heavily constrained by SRAM. 
+In a fully-trainable network, gradients and optimizer states must be held in 
+SRAM for all parameters. Using LoRA cuts this requirement down significantly. 
+Instead of allocating SRAM for 464 base parameters and their 928 Adam states 
+(totaling 1,392 floats), we only allocate SRAM for the 64 trainable B parameters 
+and their 128 Adam states (totaling 192 floats). This represents an 86% memory 
+footprint reduction in SRAM.
+
+--------------------------------------------------------------------------------
+4.2. Why Use LoRA on an Un-Trained, Deterministically-Initialized Base Model?
+--------------------------------------------------------------------------------
+Since our base model weights are not pre-trained, but rather initialized with 
+static mathematical values (like sine waves), it behaves as a fixed non-linear 
+projection vector field. 
+- According to the theory of Extreme Learning Machines (ELM), projecting input 
+  data into a higher-dimensional space using random, non-linear vectors makes 
+  it highly likely that the data will become linearly separable.
+- The trainable B matrices learn the optimal linear combinations of these 
+  underlying random features to separate classes.
+- A small model built from scratch with a 64-parameter limit would only have 1 
+  hidden neuron, limiting it to extracting a single feature. The LoRA model uses 
+  the frozen network to extract 8 complex features, and then uses the 64 
+  trainable parameters to organize and classify those features.
+
+--------------------------------------------------------------------------------
+4.3. Resource Trade-Offs (SRAM vs. Flash)
+--------------------------------------------------------------------------------
+Microcontrollers have plenty of Flash storage (often 4MB to 16MB) but very little 
+SRAM (often 320KB to 512KB). Storing frozen base weights in Flash allows us to 
+keep a larger model structure in storage, while only drawing a tiny fraction of 
+SRAM for the active adapters.
+
+================================================================================
+5. PROPOSAL FOR PRODUCTION-LEVEL EXPERIMENTATION
+================================================================================
+To translate this proof-of-concept into a publishable thesis, we recommend 
+substituting the synthetic dataset with real-world TinyML benchmarks.
+
+-------------------------------------------------------------------------
+5.1. Realistic TinyML Datasets & Model Structures
+-------------------------------------------------------------------------
+1. Human Activity Recognition (HAR)
+   - Dataset: UCI HAR Dataset (wearable accelerometer and gyroscope data).
+   - Input: Preprocessed 561-feature vector (can be reduced to 64 or 100 features 
+     using PCA to fit the ESP32 network size).
+   - Task: Classify 6 movement states (walking, standing, sitting, etc.).
+   
+2. Keyword Spotting (KWS)
+   - Dataset: Google Speech Commands.
+   - Input: Mel-Frequency Cepstral Coefficients (MFCC) feature grids, e.g., 
+     10 frames x 10 MFCC bands = 100 features.
+   - Task: Detect core voice commands ("yes", "no", "up", "down").
+
+3. Predictive Maintenance (Industrial Anomaly Detection)
+   - Dataset: CWRU Bearing Dataset or MIMII Industrial Sound Dataset.
+   - Input: FFT frequency bins representing machine vibrations (64 or 128 features).
+   - Task: Identify bearing failure modes under load. Highly suited for LoRaWAN 
+     due to its long-range industrial applications.
+
+-------------------------------------------------------------------------
+5.2. Proposed Experimental Setup & Evaluation Metrics
+-------------------------------------------------------------------------
+- Experiment A: Accuracy vs. LoRA Rank (r)
+  Train the model using r = 1, 2, 4, and 8. Plot the global validation accuracy 
+  against the transmission payload size to locate the optimal efficiency point.
+  
+- Experiment B: Transmission Efficiency Curve
+  Compare LoRA FL against Full-Weight FL. Plot accuracy on the Y-axis and the 
+  total accumulated Kilobytes transmitted on the X-axis. LoRA should converge 
+  with far fewer total bytes sent.
+
+- Experiment C: Battery & Duty Cycle Constraints on ESP32
+  Measure or calculate transmission airtime over LoRaWAN. Calculate the daily 
+  energy drain on a battery and verify if full weight updates violate regional 
+  LoRaWAN duty-cycle regulations (e.g., the 1% EU limit).
+
+================================================================================
+6. BIBLIOGRAPHY & ACADEMIC LITERATURE CITATIONS
+================================================================================
+Below are the key references to cite in your thesis to support this work:
+
+1. Low-Rank Adaptation (LoRA)
+   - Authors: Edward J. Hu, Yuxin Shen, Phillip Wallis, Zeyuan Allen-Zhu, etc.
+   - Paper: "LoRA: Low-Rank Adaptation of Large Language Models"
+   - Archive: arXiv:2106.09685 (2021)
+   - URL: https://arxiv.org/abs/2106.09685
+
+2. Federated Learning and Federated Averaging (FedAvg)
+   - Authors: Brendan McMahan, Eider Moore, Daniel Ramage, Seth Hampson, etc.
+   - Paper: "Communication-Efficient Learning of Deep Networks from Decentralized Data"
+   - Venue: AISTATS (2017)
+   - URL: https://arxiv.org/abs/1602.05629
+
+3. Extreme Learning Machines (ELM)
+   - Authors: Guang-Bin Huang, Qin-Yu Zhu, Chee-Kheng Siew
+   - Paper: "Extreme learning machine: Theory and applications"
+   - Venue: Neurocomputing (2006)
+   - URL: https://doi.org/10.1016/j.neucom.2005.12.126
+
+4. Random Features for Kernel Approximations
+   - Authors: Ali Rahimi, Benjamin Recht
+   - Paper: "Random Features for Large-Scale Kernel Machines"
+   - Venue: NeurIPS (2007)
+   - URL: https://proceedings.neurips.cc/paper/2007/hash/013a5b96d926b738b08f447780f2c19e-Abstract.html
+
+5. LoRA on Edge & IoT Devices
+   - Authors: Yae Sun, et al.
+   - Paper: "FedLoRA: Model-Heterogeneous Personalized Federated Learning with LoRA"
+   - Archive: arXiv:2304.05753 (2023)
+   - URL: https://arxiv.org/abs/2304.05753
+================================================================================
